@@ -1,0 +1,1682 @@
+/*-------------- FORMAO -------------*/
+/* SECTION 1 | BANNIERE TEXTE */
+
+.find {
+  align-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 250px;
+  background: url(./IMG/fluid-fond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.find .find-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.616);
+  border-radius: 20px;
+  height: 150px;
+  width: 1150px;
+}
+
+.find .find-text h3 {
+  max-width: 980px;
+  font-family: "Nunito", Sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  color: #282a31;
+  line-height: 1;
+}
+
+/* SECTION 2 | QU'EST CE QUE FORMAO */
+.whatis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.bloc-formao {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.whatIsFormao {
+  max-width: 900px;
+  padding: 50px;
+}
+
+.whatIsFormao h4 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  padding-bottom: 18px;
+
+}
+
+.whatIsFormao p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #282a31;
+}
+
+/* A QUI S'ADRESSE FORMAO */
+.container-who-formao {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #ea235f 0%, #2e5c9f 100%);
+  color: white;
+}
+
+.container-who-formao h2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.container-response-bloc {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  margin-bottom: -50px;
+}
+
+.container-response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+  margin: 10px
+}
+
+/* QUE CHOISIR ? */
+.choice h4 {
+  padding-top: 50px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.container-choice h3 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  max-width: 1200px;
+  margin: 50px auto 0 auto;
+}
+
+.container-choice-bloc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-choice {
+  margin-top: 50px;
+  padding: 25px;
+  border-radius: 40px 0px 0 40px;
+  background: linear-gradient(145deg, #ea235f 0%, #2e5c9f 100%);
+  width: 450px;
+  height: 320px;
+}
+
+.container-choice-bloc h5 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.container-choice-bloc p {
+  font-family: "Nunito", Sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.container-choice p,
+.container-choice h5 {
+  text-align: right;
+}
+
+.container-choi {
+  width: 450px;
+  height: 320px;
+  background: linear-gradient(145deg, #ea235f 0%, #2e5c9f 100%);
+  padding: 25px;
+  border-radius: 0 40px 40px 0;
+  margin-top: 50px;
+
+}
+
+.choice-img {
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* POURQUOI FORMAO */
+.what-formao {
+  max-width: 1250px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+.list-what-formao {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.list-what-formao img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.text-what-formao {
+  flex: 1;
+}
+
+.p_list {
+  padding-top: 20px;
+  padding-left: 25px;
+
+}
+
+.text-what-formao h3 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  max-width: 700px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+
+}
+
+.text-what-formao .list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  padding-left: 40px;
+}
+
+
+.text-what-formao ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-what-formao li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.text-what-formao li p {
+  margin: 0;
+
+  line-height: 1.4;
+}
+
+
+/* FONCTIONS FORMAO */
+#response-bloc {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 55px;
+}
+
+.response {
+  width: 340px;
+  padding: 25px;
+}
+
+#container-fonction-formao h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#container-fonction-formao {
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: auto;
+  width: 1200px;
+  border-radius: 20px;
+}
+
+/* COMMENT SA FONCTIONNE */
+.section-fonctionnement {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.fonctionnement-titre {
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: none;
+  padding-bottom: 40px;
+}
+
+.fonctionnement-contenu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.bloc-fonction {
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
+.bloc-fonction h3 {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7e548a;
+  text-align: start;
+  max-width: 400px;
+}
+
+.bloc-fonction .flex-end {
+  text-align: end;
+}
+
+.etape {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.flex-end p {
+  padding-right: 25px;
+}
+
+.etape p {
+  padding-left: 25px;
+  font-family: "Nunito", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.flex-end {
+  justify-content: flex-end;
+
+}
+
+.illustration img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/* Footer page formao */
+.test-formao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.test-formao h3 {
+  margin-top: 50px;
+  font-family: "Nunito", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+}
+
+.test-formao button {
+  background-color: #EB215E;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+
+/* -------------- SECTION | IA ET XR --------------- */
+
+
+/* SECTION 1*/
+.container-ia-xr {
+  padding: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-container-ia-xr {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  max-width: 760px;
+}
+
+.text-container-ia-xr p {
+  line-height: 1.5;
+}
+
+.container-ia-xr h2 {
+  max-width: 700px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+.container-ia-xr h3 {
+  font-family: "Nunito", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  color: #7E548A;
+  margin-left: 10px;
+}
+
+#lign-ia-xr {
+  border-top: 1px solid #7E548A;
+}
+
+.text-container-ia-xr li {
+  margin-left: 35px;
+}
+
+/* SECTION 2 | NOS DOMAINES D'eXPERTISE */
+.container_expertise_bloc {
+  position: relative;
+}
+
+#container_expertise {
+  background: none;
+  position: relative;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+#container_expertise h2 {
+  position: relative;
+  margin-bottom: -20px;
+  right: 320px;
+  color: black;
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+#img-one {
+  height: 250px;
+  position: relative;
+  width: 260px;
+  filter: brightness(60%);
+  background: url(./IMG/i-maginexr-developpement-de-solutions-et-d-applications-web-la-roche-sur-yon.webp) center/cover no-repeat;
+
+}
+
+#container_expertise p {
+  font-family: "Nunito", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+#img-two {
+  height: 250px;
+  width: 260px;
+  position: relative;
+  animation: none;
+  filter: brightness(60%);
+  background: url(./IMG/i-maginexr-chefferie-gestion-de-projet-a-la-roche-sur-yon-1.webp) center/cover no-repeat;
+
+}
+
+
+#img-three {
+  height: 250px;
+  width: 260px;
+  animation: none;
+  background: url(./IMG/i-magine-xr-integration-d-ia-geneatives-scaled.webp) center/cover no-repeat;
+  filter: brightness(60%);
+}
+
+#img-four {
+  height: 250px;
+  width: 260px;
+  animation: none;
+  background: url(./IMG/i-maginexr-developpement-d-application-vr-et-ar-scaled.webp) center/cover no-repeat;
+  filter: brightness(60%);
+}
+
+
+/* Section 4 */
+.container_realisation_ {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_realisation_ h2 {
+  position: relative;
+  margin-bottom: 0;
+  right: 350px;
+  color: black;
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+
+}
+
+.bloc_icone_livre {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+}
+
+.livre_ouvert_icone {
+  width: 100px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+._bloc_livre_formao {
+  background-color: #142747;
+}
+
+.formao {
+  background-color: #142747;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+._bloc_livre_recruitme {
+  background-color: #e73333;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+.recruitMe {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+._bloc_livre_chatBot {
+  background-color: #ed6d63;
+}
+
+.chatBot {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+._bloc_livre_mockUp {
+  background-color: #6676ae;
+}
+
+.mockUP {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+.container_realisation_blocs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.container_realisation_bloc {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.container_realisation_bloc h3 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.container_realisation_bloc p {
+  padding: 20px;
+}
+
+.container_realisation_bloc .icone-main {
+  padding-right: 10px
+}
+
+#container_max_width h2 {
+  margin: 20px;
+}
+
+
+#container_bloc {
+  margin-bottom: -50px;
+}
+
+#container_bloc p {
+  padding: 20px;
+}
+
+.container-response {
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.test_formao_ia-xr {
+  padding: 50px 0;
+}
+
+.main_click img {
+  margin-bottom: -5px;
+}
+
+/* -------------- SECTION | PAGE PROJET --------------- */
+/* accompagnement formao */
+#button {
+  width: 300px;
+}
+
+.bloc_container_acc {
+  display: flex;
+  align-items: center;
+}
+
+.chevron-left {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+#container_accompagnement,
+.container_accompagnement_bloc {
+  background: white;
+  position: relative;
+}
+
+
+#container_accompagnement h2 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 800;
+  stroke: black;
+  color: #282a31;
+  position: relative;
+  right: 120px;
+
+}
+
+#container_accompagnement p {
+  color: white;
+  font-family: "Nunito", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#img_acc_one {
+  position: relative;
+  height: 250px;
+  width: 260px;
+  background: url(./IMG/i-magine-xr-gestion-de-projet-agile-methode-scrum-scaled.webp) center/cover no-repeat;
+  filter: brightness(70%);
+}
+
+#img_acc_two {
+  height: 250px;
+  width: 260px;
+  background: url(./IMG/i-maginexr-methodologie-centree-utilisateur-scaled.webp) center/cover no-repeat;
+  filter: brightness(70%);
+}
+
+#img_acc_three {
+  height: 250px;
+  width: 260px;
+  background: url(./IMG/i-maginexr-suivi-et-accompagnement-client-a-la-roche-sur-yon-scaled.webp) center/cover no-repeat;
+  filter: brightness(70%);
+}
+
+/* Expertise formao*/
+#expertise-digital {
+  margin-top: 50px;
+  flex-direction: row-reverse;
+}
+
+#expertise-digital h3 {
+  letter-spacing: 1px;
+  margin-left: 0;
+  max-width: 600px;
+}
+
+#expertise-digital_txt {
+  font-family: "Nunito", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+  flex-direction: column;
+  padding: 0;
+
+}
+
+#expertise-digital_txt li {
+  padding: 10px;
+  max-width: fit-content;
+}
+
+#expertise-digital_txt p {
+  padding-left: 30px;
+}
+
+/* Nos engagements formao */
+
+#engagement_reussite_blocs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.engagement_reussite_bloc {
+  background: rgba(255, 255, 255, 0.15);
+  margin: 20px 20px;
+  border-radius: 8%;
+  border: 4px solid transparent;
+  transition: border 0.3s ease;
+  width: 550px;
+  height: 150px;
+  border-radius: 20px;
+  flex-direction: row;
+  box-shadow: none;
+}
+
+.engagement_reussite_bloc:hover {
+  border: #fff 4px solid;
+}
+
+#engagement_reussite {
+  background: url(IMG/fond-nos-engagements.webp) center/cover no-repeat;
+  margin-bottom: 100px;
+  padding: 45px;
+}
+
+#engagement_reussite h2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#engagement_reussite img {
+  padding: 20px;
+  ;
+}
+
+#engagement_reussite h3 {
+  max-width: 350px;
+  font-family: "Nunito", Sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5;
+  margin: 45px;
+}
+
+#engagement_reussite span {
+  font-weight: 400;
+}
+
+#engagement_reussite p {
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* Methodologie de projet */
+
+.methodologie_bloc {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 50px ;
+  width: 400px;
+}
+
+
+.methodologie_bloc_img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.methodologie_bloc_picto {
+  display: flex;
+  flex-direction: row;
+}
+
+.methodologie_bloc_txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.dotted-line {
+  margin: 20px 0px;
+  background-color: #00000000;
+  color: #000000;
+  width: 580px;
+  height: 2px;
+  border: dashed 1px rgba(62, 62, 62, 0.857);
+}
+
+.methodologie_bloc h2 {
+  font-size: 2rem;
+  font-weight: 700px;
+  font-family: "Poppins";
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.methodologie_bloc h3 {
+  font-family: "Nunito", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  color: #7e548a;
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+
+.methodologie_bloc p {
+  font-style: italic;
+  padding-left: 35px;
+}
+
+.container_project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+}
+
+/* Projet externaliser */
+
+#container_projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  color: white;
+
+}
+
+.container_project P {
+  font-family: "Nunito";
+  font-weight: 400px;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+#container_projects_title h1 {
+  font-size: 2rem;
+  margin-top: -80px;
+  padding: 40px;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+#container_projects_title {
+  height: 400px;
+}
+
+.space {
+  padding: 45px;
+}
+
+
+/* ----------- RESPONSIVE --------------*/
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+  #title-formao {
+    margin: 0;
+    text-align: center;
+  }
+
+  .list .img-ordi {
+    display: none;
+  }
+
+  #list-two {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .list h2 {
+    font-size: 1.5rem;
+    max-width: 100%;
+
+  }
+
+  .illustration {
+    display: none;
+  }
+
+
+  /*------------------- Bannière ------------*/
+  .find {
+    height: auto;
+    margin-top: 30px;
+    padding: 5px;
+  }
+
+  .find .find-text {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff9a;
+  }
+
+  .find .find-text h3 {
+    font-size: 1.8rem;
+  }
+
+  /*---------------Formao ----------*/
+  /*1ere section*/
+  .whatis {
+    flex-direction: column;
+  }
+
+  .img-formao img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    margin: auto -15px;
+  }
+
+  .bloc-formao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .whatIsFormao {
+    max-width: 92%;
+    padding: 5px;
+    text-align: start;
+  }
+
+  .whatIsFormao h4 {
+    font-size: 2rem;
+  }
+
+  .whatIsFormao p {
+    font-size: 1rem;
+  }
+
+  /* 2eme section */
+  .container-who-formao {
+    padding: 20px 0;
+  }
+  .container-response-bloc {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+
+  .container-response {
+    width: 95%;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 20px 80px;
+  }
+
+  /* 3eme section */
+  .choice h4 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .container-choice-bloc {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+  }
+
+  .container-choice,
+  .container-choi {
+    width: 90%;
+    margin: 10px auto;
+    height: auto;
+    padding: 20px;
+  }
+
+  .choice-img {
+    display: none;
+  }
+
+  .choice {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /*4eme section */
+
+  .what-formao {
+    padding: 30px 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-what-formao {
+    flex-direction: column;
+  }
+
+  .text-what-formao h3 {
+ 
+    padding-left: 10px;
+    text-align: start;
+  }
+    .text-what-formao .list {
+      gap: 0;
+      align-content: flex-start;
+      align-items: flex-start;
+      padding: 10px;
+    }
+
+  .p_list {
+    padding-top: 0;
+  }
+
+  .list {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list img {
+    width: 35px;
+  }
+
+  .list-what-formao ul {
+    max-width: 100%;
+  
+  }
+
+  /*5eme section */
+  #container-fonction-formao {
+    max-width: 100%;
+    margin: 0;
+    padding: 0
+  }
+
+
+  #response-bloc {
+    justify-content: center;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+  .container-response {
+  
+    height: auto;
+  }
+  /* 6eme section fonctionnement*/
+  .etape img {
+    width: 50px;
+  }
+  .bloc-fonction {
+    max-width: 300px;
+  }
+  .test-formao {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  /* 7eme section */
+  .test-formao {
+    text-align: center;
+    margin: 0;
+  }
+
+  /*---------------Applications ia&xr ----------------*/
+  /*section 1*/
+  /* IA ET XR */
+
+  .container-ia-xr {
+    padding: 50px 10px;
+    flex-direction: column;
+  }
+
+  .container-ia-xr img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .text-container-ia-xr img {
+    width: auto;
+    padding-left: 0px;
+  }
+
+  .text-container-ia-xr {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+
+  /* section 2 */
+  #container_expertise h2 {
+    right: 0px;
+  }
+
+  #img-one,
+  #img-two,
+  #img-three,
+  #img-four {
+    width: 300px;
+  }
+
+  #container_expertise {
+    margin-bottom: 50px;
+  }
+
+  #container_expertise_bloc,
+  .container_realisation_blocs {
+    grid-template-columns: 1fr;
+    height: fit-content;
+    width: 100%;
+  }
+
+  /*section 3 */
+  .container_realisation_ {
+    height: auto;
+  }
+
+  .container_realisation_bloc {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container_realisation_ h2 {
+    right: 0;
+    padding: 10px;
+  }
+
+  .bloc_icone_livre {
+    width: 100%;
+  }
+
+  .livre_ouvert_icone {
+    width: 100%;
+    max-height: 100px;
+  }
+
+  ._MockUp {
+    margin-bottom: 20px;
+
+  }
+
+  /* section 4*/
+  .max_height {
+    height: 100px;
+    padding: 0;
+  }
+
+  .max_height img {
+    padding-top: 30px;
+  }
+
+  .test_formao_ia-xr {
+    padding: 50px;
+  }
+
+  /*---------------Projet-----------*/
+  /* section 1*/
+  #container_accompagnement {
+    flex-direction: column;
+    align-items: start;
+    max-width: 100%;
+   
+  }
+
+  .bloc_container_acc {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #container_accompagnement h2 {
+    right: 0;
+    font-size: 30px;
+    text-align: start;
+  }
+
+  .container_accompagnement_bloc {
+    max-width: 90%;
+    ;
+  }
+
+  .chevron_left {
+    margin: 20px;
+  }
+
+  #img_acc_one,
+  #img_acc_three,
+  #img_acc_two {
+    width: 400px;
+    margin-bottom: 55px;
+  }
+
+  /*section 2*/
+  #container_expertise {
+    margin-bottom: 50px;
+  }
+
+  #expertise-digital {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+ .container-who-formao h2 {
+  text-align: center;
+ }
+ #container_max_width h2 {
+  margin : 0
+ }
+#engagement_reussite h2 {
+text-align: start;
+}
+  #img-one,
+  #img-two,
+  #img-three,
+  #img-four {
+    width: 400px;
+  }
+
+  #container_expertise p {
+    width: 95%;
+    ;
+  }
+
+  #expertise-digital_txt .check {
+    width: 10%;
+  }
+
+  #expertise-digital img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #expertise-digital_bloc {
+    margin: auto;
+    max-width: fit-content;
+    max-height: auto;
+  }
+
+  #chevron_left {
+    display: none;
+  }
+
+  /* section 3*/
+
+  #engagement_reussite_blocs {
+    grid-template-columns: 1fr;
+    align-items: center;
+    max-width: auto
+  }
+
+  #engagement_reussite h2{
+    margin: 0;
+    max-width: 400px;
+  }
+  #engagement_reussite p {
+    margin: auto 15px;
+  }
+
+  #engagement_reussite {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+  .engagement_reussite_bloc {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    width: 90%
+  }
+
+  #engagement_reussite img {
+    padding: 0;
+  }
+
+  .engagement_reussite_bloc img {
+    width: 60px;
+
+  }
+
+  #engagement_reussite h3 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .engagement_reussite_bloc h3 {
+    width: auto;
+    padding: 5px;
+    margin: 0;
+  }
+
+  /* section 4 */
+
+  .methodologie_bloc .logo-number {
+    display: none;
+  }
+
+  .methodologie_bloc {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+    
+  }
+
+  .methodologie_bloc_img .women-happy {
+    width: 80%;
+    margin-bottom: 150px;
+  }
+
+  .methodologie_bloc p,
+  .methodologie_bloc h3 {
+    padding: 0;
+  }
+
+  .methodologie_bloc_txt {
+    width: 90%;
+    max-width: 400px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dotted-line {
+    max-width: 400px;
+  }
+
+  /* section 5*/
+  #container_projects {
+    grid-template-columns: 1fr;
+    padding: 0 40px;
+  }
+
+  #container_projects_title h1 {
+    font-size: 1.8rem;
+    text-align: start;
+    padding: 10px;
+  }
+
+  #container_projects_title {
+    font-size: 25px;
+    text-align: start;
+    height: 500px;
+  }
+
+  .container_project {
+    justify-content: flex-start;
+    height: fit-content;
+    max-width: 100%;
+
+  }
+
+  .container_project p {
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  .check {
+    width: 20px;
+  }
+
+}
+
+/* Tablette */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Début de page bannière 
+  et fin de page */
+  .find .find-text {
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .test-formao {
+    text-align: center;
+  }
+
+  /* Ia & XR */
+
+  .container-ia-xr {
+    padding: 50px 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .container-ia-xr img {
+    width: 30%;
+  }
+
+  .text-container-ia-xr h3 img {
+    width: 25px;
+  }
+
+  .text-container-ia-xr {
+    padding-left: 20px;
+    max-width: 100%;
+  }
+
+  .container_realisation_ h2,
+  #container_expertise h2 {
+  right:0;
+    text-align: start;
+    margin-bottom: 0;
+  }
+  .container_expertise_bloc {
+    max-width: 200px;
+    padding: auto;
+  }
+
+  #img-one, #img-two , #img-three, #img-four {
+    max-width: 80%;
+    margin: auto;
+    
+  }
+  #container-fonction-formao {
+    margin: auto;
+    width: 99%;
+    left: 5px;
+  }
+
+  #img_acc_one,
+  #img_acc_three,
+  #img_acc_two {
+    width: 180px;
+  }
+  .chevron-left {
+    margin: 0;
+    padding: 0;
+  }
+  #response-bloc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #container-fonction-formao .response {
+    max-width: fit-content;
+  }
+
+ 
+  .container-response {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100px;
+  }
+   
+
+
+  /* Formao */
+  .whatis {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .img-formao img {
+    max-width: 250px;
+    padding-left: 25px;
+  }
+
+  .container-response-bloc {
+    flex-wrap: nowrap;
+   
+  }
+  .section-fonctionnement  {
+    padding: 10px 10px;
+  }
+  .container-response {
+    max-width: 100%;
+  }
+
+  .choice {
+    margin: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container-choice {
+    padding-right: 40px;
+  }
+
+  .container-choice-bloc {
+    max-width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+  }
+
+  .container-choice,
+  .container-choi {
+    height: 500px;
+  }
+
+  .choice-img {
+    width: 150px;
+    margin: 20px;
+  }
+
+  .illustration img {
+    width: 100%;
+  }
+ 
+
+  .what-formao h3 {
+    padding: 0;
+  }
+
+  .what-formao .list p {
+    font-size: 15px;
+  }
+ .text-what-formao .list {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+ }
+  .text-what-formao #list-two li {
+    justify-content: flex-end;
+  }
+
+  .fonctionnement-contenu {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  /* Projet */
+  #container_accompagnement {
+    max-width: 100%;
+  }
+
+  #container_accompagnement h2 {
+    right: 50px;
+    font-size: 20px;
+  }
+
+  #container_accompagnement_bloc {
+    max-width: 90%;
+    ;
+  }
+
+.women-happy {
+  width: 400px;
+}
+  
+  #expertise-digital img {
+    width: 40%;
+    height: 100%;
+  }
+
+  #expertise-digital_bloc {
+    margin: auto;
+    max-width: fit-content;
+    max-height: auto;
+  }
+
+  #expertise-digital_txt img {
+    width: 15%;
+  }
+
+  #engagement_reussite {
+    max-width: auto;
+  }
+    #engagement_reussite p {
+    margin-left: -100px;
+    }
+  #engagement_reussite_blocs {
+    max-width: auto
+  }
+
+  .engagement_reussite_bloc {
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+  }
+
+  .engagement_reussite_bloc h3 {
+    width: auto;
+  }
+.methodologie_bloc {
+  width: auto;
+}
+  .methodologie_bloc_img {
+    width: 20%;
+  }
+
+  #container_projects_title h1 {
+    text-align: start;
+  }
+}

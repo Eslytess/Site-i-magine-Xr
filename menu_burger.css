@@ -1,0 +1,185 @@
+/* RETOUR HAUT DE PAGE */
+#scrollUp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.5;
+}
+
+/* MENU BURGER ENSEMBLE DU SITE  */
+.burger-menu {
+  background-color: transparent;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  border: none;
+  display: none;
+}
+
+/* NAV BAR FIXE */
+.scrolled {
+  background-color: #282a31;
+  position: fixed;
+  z-index: 99999;
+}
+
+/* STYLE DE LA NAVBAR */
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 20px 25px;
+  transition: background-color 1s ease;
+  z-index: 9999;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 40px;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 14px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #ea235f;
+}
+
+/* SOUS MENU CATEGORIE SERVICE */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin: 0
+}
+
+.dropdown li {
+  padding: 4px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  border-bottom: 2px solid transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 70%;
+  background-color: #f9f9f9d8;
+  border: 1px solid white;
+  width: 170px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  padding: 10px
+}
+
+.dropdown-content a:hover {
+  color: white;
+}
+
+.dropdown li:hover {
+  background-color: #ea235f;
+
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 10001;
+  }
+
+  .navbar {
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #3a3c4581;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav ul li {
+    border-top: 1px solid #3a3c4581;
+    text-align: left;
+    padding: 5px 15px;
+  }
+
+  .dropdown-content {
+    position: static;
+    background-color: #3a3c4581;
+    box-shadow: none;
+    border: none;
+  }
+
+  .dropdown-content a {
+    color: white;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ea235f;
+  }
+}
