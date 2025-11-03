@@ -75,7 +75,7 @@
   }
 
   .promise__img {
-    left: -3%;
+    left: -2%;
     width: 30%;
   }
 
@@ -503,8 +503,8 @@
     width: auto;
     padding: 15px;
   }
-  .leGroupeImaginer h3,
-  .leGroupeImaginer h2 {
+  .leGroupeImaginer .title_groupe_h3,
+  .title_groupe_h2  {
    margin-left: 20px;
   }
   .Groups {
@@ -632,12 +632,9 @@
 
   button#submit:hover {
     background: #ff3370;
+
   }
 
-  .lien-condition p {
-    max-width: 300px;
-    font-size: 0.9rem;
-  }
 
   .lien-condition {
     left: 0;
@@ -730,9 +727,6 @@
     font-size: 1.8rem;
   }
 
-  form label {
-    font-size: 0.9rem;
-  }
 
   .lien-condition {
     width: 100%;

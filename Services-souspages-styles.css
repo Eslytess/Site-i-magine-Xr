@@ -133,6 +133,7 @@
   font-weight: 900;
   text-transform: none;
   font-style: normal;
+  margin-top: 40px;
   text-decoration: none;
 }
 
@@ -153,6 +154,11 @@
   max-width: 1200px;
   margin: 50px auto 0 auto;
 }
+  
+.title_choice {
+  margin-top: 50px;
+
+}
 
 .container-choice-bloc {
   display: flex;
@@ -160,15 +166,51 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+  gap: 0; 
+}
+
+
+.container-choice,
+.container-choi {
+  width: 450px;
+  height: 320px;
+  background: linear-gradient(145deg, #ea235f 0%, #2e5c9f 100%);
+  padding: 25px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation-duration: 3s;
 }
 
 .container-choice {
-  margin-top: 50px;
-  padding: 25px;
-  border-radius: 40px 0px 0 40px;
-  background: linear-gradient(145deg, #ea235f 0%, #2e5c9f 100%);
-  width: 450px;
-  height: 320px;
+  border-radius: 40px 0 0 40px;
+  animation-name: slidein-left;
+  align-items: flex-end;
+}
+
+
+.container-choi {
+  border-radius: 0 40px 40px 0;
+  animation-name: slidein-right;
+}
+
+@keyframes slidein-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+@keyframes slidein-right {
+  from {
+    margin-right: 100%;
+  }
+  to {
+    margin-right: 0%;
+  }
 }
 
 .container-choice-bloc h5 {
@@ -176,8 +218,8 @@
   font-size: 1.5rem;
   color: white;
   font-weight: 700;
-  text-transform: uppercase;
   font-style: normal;
+  
 }
 
 .container-choice-bloc p {
@@ -195,13 +237,15 @@
   text-align: right;
 }
 
-.container-choi {
-  width: 450px;
-  height: 320px;
-  background: linear-gradient(145deg, #ea235f 0%, #2e5c9f 100%);
-  padding: 25px;
-  border-radius: 0 40px 40px 0;
-  margin-top: 50px;
+.container-choi p,
+.container-choi h5 {
+  text-align: left;
+}
+.ligne_choix {
+height: 3px;
+margin: 10px 0;
+background-color: white;
+width: 45px;
 
 }
 
@@ -212,6 +256,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 
 /* POURQUOI FORMAO */
@@ -495,8 +540,7 @@
 }
 
 #container_expertise h2 {
-  position: relative;
-  margin-bottom: -20px;
+
   right: 320px;
   color: black;
   font-family: "Poppins", Sans-serif;
@@ -1070,13 +1114,13 @@
   /*------------------- Bannière ------------*/
   .find {
     height: auto;
-    padding: 15px;
+    padding: 8px;
   }
   .find .find-text {
     width: 100%;
     align-items: center;
-   padding: 15px;
-    height:280px;
+
+    height:300px;
     background-color: #ffffff9a;
   }
 
@@ -1093,7 +1137,7 @@
   .img-formao img {
     width: 100%;
     height: auto;
-    max-width: 380px;
+    max-width: 350px;
     margin: auto
   }
 
@@ -1269,15 +1313,13 @@
   }
 
   /* section 2 */
-  #container_expertise h2 {
-    right: 0px;
-  }
+
 
   #img-one,
   #img-two,
   #img-three,
   #img-four {
-    width: 300px;
+    width: 50px;
   }
 
   #container_expertise {
@@ -1327,7 +1369,7 @@
   }
 
   .max_height img {
-    padding-top: 30px;
+    padding-top: 15px;
   }
 
   .test_formao_ia-xr {
@@ -1335,6 +1377,9 @@
   }
 
   /*---------------Projet-----------*/
+  .presentation .btn_width_projet {
+    width: 280px;
+  }
   /* section 1*/
   #container_accompagnement {
     flex-direction: column;
@@ -1354,10 +1399,7 @@
     text-align: start;
   }
 
-  .container_accompagnement_bloc {
-    max-width: 90%;
-    ;
-  }
+  
 
   .chevron_left {
     margin: 20px;
@@ -1381,8 +1423,8 @@
   }
 
   .container-who-formao h2 {
-    text-align: center;
-    padding: 40px;
+
+    line-height: 1.2
   }
 
   #container_max_width h2 {
@@ -1397,7 +1439,7 @@
   #img-two,
   #img-three,
   #img-four {
-    width: 400px;
+    width: 350px;
   }
 
   #container_expertise p {
@@ -1455,13 +1497,8 @@
     width: 90%
   }
 
-  #engagement_reussite img {
-    padding: 0;
-  }
-
-  .engagement_reussite_bloc img {
-    width: 60px;
-
+  .image-expertise_formao {
+    max-width: 100%;
   }
 
   #engagement_reussite h3 {
@@ -1487,7 +1524,9 @@
     padding: 0;
 
   }
-
+  .dotted-line {
+    width: 350px;
+  }
   .methodologie_bloc_img .women-happy {
     width: 80%;
     margin-bottom: 150px;
@@ -1516,15 +1555,17 @@
   }
 
   #container_projects_title h1 {
-    font-size: 1.8rem;
-    text-align: start;
-    padding: 10px;
+           font-family: "Poppins";
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: start;
+        padding: 10px;
   }
 
   #container_projects_title {
     font-size: 25px;
     text-align: start;
-    height: 500px;
+    height: 550px;
   }
 
   .container_project {
@@ -1540,7 +1581,7 @@
   }
 
   .check {
-    width: 20px;
+    height: 20px;
   }
 
 }
@@ -1623,10 +1664,11 @@
   #response-bloc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 25px 40px;
   }
 
   #container-fonction-formao .response {
-    max-width: fit-content;
+  width: auto;
   }
 
 
@@ -1657,6 +1699,7 @@
 
   .section-fonctionnement {
     padding: 10px 10px;
+    margin-top: 80px;
   }
 
   .container-response {
@@ -1693,7 +1736,14 @@
     width: 100%;
   }
 
+  .text-what-formao .list {
+    gap: 0;
+    padding: 10px 40px;
+  }
 
+.title_what_formao {
+  padding: 10px 40px;
+}
   .what-formao h3 {
     padding: 0;
   }
@@ -1702,11 +1752,6 @@
     font-size: 15px;
   }
 
-  .text-what-formao .list {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 20px;
-  }
 
   .text-what-formao #list-two li {
     justify-content: flex-end;
@@ -1723,6 +1768,9 @@
 
 
   /* Projet */
+.btn_width_projet button {
+    width: 300px;
+  }
   #container_accompagnement {
     max-width: 100%;
   }
@@ -1741,11 +1789,7 @@
     width: 400px;
   }
 
-  #expertise-digital img {
-    width: 40%;
-    height: 100%;
-  }
-
+  
   #expertise-digital_bloc {
     margin: auto;
     max-width: fit-content;
@@ -1755,7 +1799,9 @@
   #expertise-digital_txt img {
     width: 15%;
   }
-
+  .image-expertise_formao {
+    max-width: 100%;
+  }
   #engagement_reussite {
     max-width: auto;
   }
@@ -1773,19 +1819,31 @@
     height: 200px;
     margin: 15px;
   }
-
+  #engagement_reussite img{
+    padding: 10px;
+    margin-left: 5px;
+  }
+ 
   .engagement_reussite_bloc h3 {
     width: auto;
   }
-
+  .dotted-line {
+    width: 400px;
+  }
   .methodologie_bloc {
     width: auto;
+  }
+  .methodologie_bloc_picto {
+    width: 400px;
   }
 
   .methodologie_bloc_img {
     width: 20%;
   }
-
+.check {
+    height: 40px;
+    margin: 0px 0px 0px 40px;
+  }
   #container_projects_title h1 {
     text-align: start;
   }
