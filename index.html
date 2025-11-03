@@ -28,7 +28,7 @@
       <header id="navbar" class="navbar">
         <!-- Bouton menu burger -->
         <button class="burger-menu" id="burgerMenu">
-             <img src="./IMG/burger-bar.png" width="50" alt="image-menu-burger">
+          <img src="./IMG/burger-bar.png" width="50" alt="image-menu-burger">
         </button>
         <!--Barre de navigation -->
         <div class="logo">
@@ -42,12 +42,14 @@
             <li><a href="./2Quisommesnous.html">Qui sommes nous ?</a></li>
             <!-- Sous menu-->
             <li class="dropdown">
-              <a href="./3Services.html" class="dropbtn">Services<style></style> ▼</a>
+              <a href="./3Services.html" class="dropbtn">Services&nbsp; <img class="fleche_burger_menu" src="./IMG/icone-fleche.png" height="12px"
+                  alt="">
+              </a>
               <ul class="dropdown-content">
-                <li><a href="./Services1-Formao.html">Formao</a></li>
-                <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
-                <li><a href="./ServiceS3-IA&XR.html">Applications IA & XR</a></li>
-                <li><a href="./Services4-Projet.html">Gestion de projet</a></li>
+                <li class="li_burger"><a href="./Services1-Formao.html">Formao</a></li>
+                <li class="li_burger"><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
+                <li class="li_burger"><a href="./ServiceS3-IA&XR.html">Applications IA & XR</a></li>
+                <li class="li_burger"><a href="./Services4-Projet.html">Gestion de projet</a></li>
               </ul>
             </li>
 
@@ -81,7 +83,8 @@
         Nous mettons à votre disposition notre expertise en développement
         informatique, en nouvelles technologies et en ingénierie pédagogique.
       </p>
-      <a class="services__link" href="./Service3-IA&XR.html">En savoir plus →</a>
+      <a class="services__link" href="./ServiceS3-IA&XR.html">En savoir plus &nbsp; <img width="15" class="little_arrow"
+          src="./IMG/fleche-bouton-violette.png" alt="fleche"></a>
     </div>
 
     <div class="services__card services__card--featured">
@@ -91,7 +94,8 @@
         Notre plateforme de formation en ligne pour révolutionner la pédagogie
         avec des technologies adaptatives et immersives.
       </p>
-      <a class="services__link" href="./Services1-Formao.html">En savoir plus →</a>
+      <a class="services__link" href="./Services1-Formao.html">En savoir plus&nbsp; <img width="15" class="little_arrow"
+          src="./IMG/fleche.bouton.png" alt="fleche"></a>
     </div>
 
     <div class="services__card">
@@ -101,7 +105,8 @@
         Nous vous accompagnons et vous guidons dans votre projet, de sa
         conception à sa mise en œuvre.
       </p>
-      <a class="services__link" href="./Services4-Projet.html">En savoir plus →</a>
+      <a class="services__link" href="./Services4-Projet.html">En savoir plus &nbsp; 
+        <img alt="icone-fleche-menu-deroulant" width="15" class="little_arrow" src="./IMG/fleche-bouton-violette.png"> </a>
     </div>
   </section>
 
@@ -113,10 +118,9 @@
     </div>
 
     <div class="society__text">
-      <h2 class="society__title">La société i-magineXR</h2>
-
-      <p class="society__paragraph">
-        i-magineXR est une filiale du
+      <!-- Titre h3-->
+      <h2 class="title-style society_title">La société i-magineXR</h2>
+      <p class="society_first_paragraph">i-magineXR est une filiale du
         <a href="https://i-maginer.com/" class="society__link">groupe i-maginer</a>,
         fondé il y a plus de <b>30 ans</b> par Philippe Pérès pour se positionner
         comme un acteur clé du <br />
@@ -207,8 +211,9 @@
 
     <div class="usage__slideshow">
       <div class="usage__header">
-        <h2 class="usage__title">Ils utilisent Formao</h2>
-        <h3 class="usage__subtitle">Formao s'adapte à chaque usage</h3>
+        <h3 class="usage__title">Ils utilisent Formao</h3>
+        <!--Titre h3 -->
+        <h2 class="title-style title_weight">Formao s'adapte à chaque usage</h2>
         <p class="usage__text">
           Formao s’adapte à tous les contextes de formation, que ce soit en mobilité, en présentiel
           ou en collaboration à distance. Grâce à son interface intuitive et immersive, notre solution répond aux
@@ -245,9 +250,9 @@
     </div>
 
     <div class="text">
-      <h2 id="title" class="Title">Notre expertise</h2>
-
-      <h3 class="society__title">Inventer la pédagogie de demain avec les nouvelles technologies</h3>
+      <h3 class="usage__title">Notre expertise</h3>
+      <!--titre h3-->
+      <h2 class="title-style title_weight">Inventer la pédagogie de demain avec les nouvelles technologies</h2>
       <br>
       <div class="Animation">
         <div class="animation under"></div>
@@ -300,7 +305,8 @@
   <!---------------- 6eme Section | Nos derniers articles ----------------->
   <section class="articles">
     <div class="articles__head">
-      <h2 class="articles__title">Nos derniers articles</h2>
+      <!--titre h3-->
+      <h2 class="title-style title_weight">Nos derniers articles</h2>
       <div class="articles__filters "> <button class="articles__filter active">Tous les
           articles</button> <button class="articles__filter">Technologie</button> </div>
     </div>
@@ -310,7 +316,9 @@
           alt="Écran d’ordinateur" />
         <div class="articles__content">
           <div class="articles__meta"><span class="articles__date">01/08/2025</span> </div>
-          <h3 class="articles__card-title">Moodle : La plateforme LMS Open Source mondiale</h3>
+          <a href="" class="link-article">
+            <h3 class="articles__card-title">Moodle : La plateforme LMS Open Source mondiale</h3>
+          </a>
           <p class="articles__excerpt"> La plateforme LMS Open Source mondiale : Moodle Avec l’essor de l’enseignement à
             distance et la transformation numérique de l’éducation...</p> <a class="articles__more"
             href="./Article_LMS_Moodle.html">Voir
@@ -321,7 +329,9 @@
           src="./IMG/tpo-10-des-meilleurs-ia-generatives-en-2025-par-i-maginexr-scaled.webp" alt="Main robot" />
         <div class="articles__content">
           <div class="articles__meta"> <span class="articles__date">24/07/2025</span> </div>
-          <h3 class="articles__card-title">Top 10 des meilleures IA génératives en 2025</h3>
+          <a href="" class="link-article">
+            <h3 class="articles__card-title">Top 10 des meilleures IA génératives en 2025</h3>
+          </a>
           <p class="articles__excerpt"> Top 10 des meilleures IA génératives en 2025 Les IA génératives sont devenues en
             2025 un véritable moteur de productivité...
           </p> <a class="articles__more" href="./Article_top10_ia.html">Voir plus</a>
@@ -331,7 +341,9 @@
           src="./IMG/logiciel-edtech-formao-lms-degrade.webp" alt="Personne travaillant sur un ordinateur portable" />
         <div class="articles__content">
           <div class="articles__meta"> <span class="articles__date">22/07/2025</span> </div>
-          <h3 class="articles__card-title">Qu’est-ce qu’une plateforme LMS ?</h3>
+          <a href="" class="link-article">
+            <h3 class="articles__card-title">Qu’est-ce qu’une plateforme LMS ?</h3>
+          </a>
           <p class="articles__excerpt"> Qu’est ce qu’une plateforme LMS ? À l’heure où la formation en ligne accélère la
             montée en compétences, choisir la... </p> <a class="articles__more" href="./Article_LMS.html">Voir plus</a>
         </div>
@@ -360,7 +372,6 @@
         <ul>
           <li><a href="https://i-maginer.com/">Le groupe i-maginer</a></li>
           <li><a href="https://arinfo.fr/">Arinfo</a></li>
-          <li><a href="https://beta.formao.fr/connexion">Formao</a></li>
           <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
           <li><a
               href="file:///C:/Users/Alison/Desktop/Projet%20entreprise/Site%20I-magineXR/Quisommesnous.html#">i-magineLab</a>

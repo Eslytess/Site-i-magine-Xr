@@ -24,42 +24,44 @@
     <!---------------- HEADER  ----------------->
     <header>
         <!--Image fond header -->
-        <div class="imgfond">
-            <header id="navbar" class="navbar">
-                <!-- Bouton menu burger -->
-                <button class="burger-menu" id="burgerMenu">
-                    <img src="./IMG/burger-bar.png" width="50" alt="image-menu-burger">
-                </button>
-                <!--Barre de navigation -->
-                <div class="logo">
-                    <a href="./index.html">
-                        <img src="./IMG/i-maginexr-entreprise-edtech-developpement-blanc.svg" alt="logo du site" />
-                    </a>
-                </div>
-
-                <nav>
-                    <ul>
-                        <li><a href="./2Quisommesnous.html">Qui sommes nous ?</a></li>
-                        <!-- Sous menu-->
-                        <li class="dropdown">
-                            <a href="./3Services.html" class="dropbtn">Services ▼</a>
-                            <ul class="dropdown-content">
-                                <li><a href="./Services1-Formao.html">Formao</a></li>
-                                <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
-                                <li><a href="./ServiceS3-IA&XR.html">Applications IA & XR</a></li>
-                                <li><a href="./Services4-Projet.html">Gestion de projet</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="./4Actualites.html">Actualités</a></li>
-                        <li><a href="./5Contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-
+       <div class="imgfond">
+      <header id="navbar" class="navbar">
+        <!-- Bouton menu burger -->
+        <button class="burger-menu" id="burgerMenu">
+          <img src="./IMG/burger-bar.png" width="50" alt="image-menu-burger">
+        </button>
+        <!--Barre de navigation -->
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./IMG/i-maginexr-entreprise-edtech-developpement-blanc.svg" alt="logo du site" />
+          </a>
         </div>
+
+        <nav>
+          <ul>
+            <li><a href="./2Quisommesnous.html">Qui sommes nous ?</a></li>
+            <!-- Sous menu-->
+            <li class="dropdown active_page">
+              <a href="./3Services.html" class="dropbtn active_page">Services&nbsp; <img src="./IMG/icone-fleche.png" height="12px"
+                  alt="">
+              </a>
+              <ul class="dropdown-content">
+                <li><a href="./Services1-Formao.html">Formao</a></li>
+                <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
+                <li><a href="./ServiceS3-IA&XR.html">Applications IA & XR</a></li>
+                <li><a href="./Services4-Projet.html">Gestion de projet</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./4Actualites.html">Actualités</a></li>
+            <li><a href="./5Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+    </div>
         <!-- Sous la barnav -->
         <section class="presentation">
-            <h1>
+            <h1 class="title-responsive">
                 Nos services innovants !
             </h1>
             <div class="buttons buttons_hidden">
@@ -82,7 +84,7 @@
                     Révolutionnez vos formations grâce à notre plateforme immersive et personnalisée avec tous les
                     outils nécessaires.
                 </p>
-                <a href="./Services1-Formao.html" class="linkk">En savoir plus →</a>
+                <a href="./Services1-Formao.html" class="linkk">En savoir plus <img src="./IMG/fleche.bouton.png" width="15" alt=""></a>
             </div>
         </div>
 
@@ -93,7 +95,7 @@
                     Openspace3D, la solution open source en VR/AR pour l’immersive learning, issue de notre expertise
                     R&amp;D.
                 </p>
-                <a href="https://www.openspace3d.com/fr/" class="linkk">En savoir plus →</a>
+                <a href="https://www.openspace3d.com/fr/" class="linkk">En savoir plus  <img src="./IMG/fleche.bouton.png" width="15" alt=""></a>
             </div>
         </div>
 
@@ -104,7 +106,7 @@
                     Repoussez les frontières de la formation grâce à notre expertise en IA, réalité augmentée et
                     virtuelle.
                 </p>
-                <a href="./ServiceS3-IA&XR.html" class="linkk">En savoir plus →</a>
+                <a href="./ServiceS3-IA&XR.html" class="linkk">En savoir plus  <img src="./IMG/fleche.bouton.png" width="15" alt=""></a>
             </div>
         </div>
 
@@ -114,7 +116,7 @@
                 <p>
                     Assurez la réussite de vos projets grâce à notre expertise en numérique et pédagogie.
                 </p>
-                <a href="./Services4-Projet.html" class="linkk">En savoir plus →</a>
+                <a href="./Services4-Projet.html" class="linkk">En savoir plus  <img src="./IMG/fleche.bouton.png" width="15" alt=""></a>
             </div>
         </div>
 
@@ -131,7 +133,7 @@
                 notre expertise. C’est pourquoi nous mettons un point d’honneur à comprendre vos enjeux, à co-construire
                 avec vous chaque étape de la solution et à rester présents bien après la mise en place. Notre objectif :
                 vous offrir une expérience fluide, adaptée à vos besoins, et des résultats durables.</p>
-            <h2>Les étapes clés dans la réalisation de votre projet</h2>
+            <h2 class="title-style">Les étapes clés dans la réalisation de votre projet</h2>
         </div>
         <div class="step">
             <div class="stepOne">
@@ -163,15 +165,15 @@
 
     <!--  3eme section | LA PLATEFORME D'APPRENTISSAGE PERSONNALISE : FORMAO ( section 1ere page )-->
 
-    <section id="bloc_formao" class="promise">
-        <div class="promise__img">
+    <section class="promise bloc_formao">
+        <div class="promise__img formaoimg">
             <img src="./IMG/realite-virtuelle-vr-immersion-756x1024.webp" alt="Étudiante souriante avec cahiers">
         </div>
 
         <div id="bloc_formao_inner" class="promise__inner">
             <h2 id="bloc_formao_title" class="promise__title">La plateforme d'apprentissage personnalisé : Formao</h2>
-            <div class="promise__underline"></div>
-            <p id="promise-paragraph" class="promise__title">Formao est la plateforme d’expérience d’apprentissage (LXP)
+            <div class="promise__underline formao-underline"></div>
+            <p id="promise-paragraph" class="promise__title formao_paragraph">Formao est la plateforme d’expérience d’apprentissage (LXP)
                 développée par i-magineXR conçue pour offrir
                 une expérience personnalisée à la fois pour les apprenants, pour les formateurs et pour le personnel
                 encadrant, accompagnant ainsi tous les acteurs de la formation dans l’innovation pédagogique.</p>
@@ -275,57 +277,56 @@
         <h2><span style="color: #7E548A;">Un besoin ? Un projet ?</span>
             <br> Et si on en parlait autour d'un café !
         </h2>
-        <a href="./5Contact.html" class="btnContact">Nous contacter →</a>
+        <a href="./5Contact.html" class="btnContact">Nous contacter  &nbsp; <img src="./IMG/fleche.bouton.png" height="15px" alt=""></a>
     </section>
 
 
     <!---------------- FOOTER  ----------------->
+ <footer>
+    <div class="footer-container">
 
-    <footer>
-        <div class="footer-container">
+      <div class="links">
+        <h2>Entreprise</h2>
+        <div class="surlign"></div>
+        <ul>
+          <li><a href="./2Quisommesnous.html">Qui sommes-nous ?</a></li>
+          <li><a href="./3Services.html">Nos services</a></li>
+          <li><a href="5Contact.html">Nous contacter</a></li>
+          <li><a href="./MentionsLegales.html">Mentions Légales</a></li>
+        </ul>
+      </div>
+      <div class="links">
+        <h2>Nos Marques</h2>
+        <div class="surlign"></div>
+        <ul>
+          <li><a href="https://i-maginer.com/">Le groupe i-maginer</a></li>
+          <li><a href="https://arinfo.fr/">Arinfo</a></li>
+          <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
+          <li><a
+              href="file:///C:/Users/Alison/Desktop/Projet%20entreprise/Site%20I-magineXR/Quisommesnous.html#">i-magineLab</a>
+          </li>
+        </ul>
+      </div>
 
-            <div class="links">
-                <h2>Entreprise</h2>
-                <div class="surlign"></div>
-                <ul>
-                    <li><a href="./2Quisommesnous.html">Qui sommes-nous ?</a></li>
-                    <li><a href="./3Services.html">Nos services</a></li>
-                    <li><a href="./5Contact.html">Nous contacter</a></li>
-                    <li><a href="./MentionsLegales.html">Mentions Légales</a></li>
-                </ul>
-            </div>
-            <div class="links">
-                <h2>Nos Marques</h2>
-                <div class="surlign"></div>
-                <ul>
-                    <li><a href="https://i-maginer.com/">Le groupe i-maginer</a></li>
-                    <li><a href="https://arinfo.fr/">Arinfo</a></li>
-                    <li><a href="https://beta.formao.fr/connexion">Formao</a></li>
-                    <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
-                    <li><a
-                            href="file:///C:/Users/Alison/Desktop/Projet%20entreprise/Site%20I-magineXR/Quisommesnous.html#">i-magineLab</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="links">
+        <h2>Suivez-nous</h2>
+        <div class="surlign"></div>
+        <div class="LinkFollow">
+          <div class="iconeRéseaux">
+            <a href="https://www.instagram.com/i_maginexr_/"> <img src="./IMG/logo-insta-footer.png"
+                class="iconeRéseaux" alt="Instagram icone" /></a>
+            <a href="https://m.facebook.com/61559538406667/"><img class="iconeRéseaux" src="./IMG/logo-fb-footer.png"
+                alt="Facebook icone" /></a>
+            <a href="https://www.linkedin.com/company/i-maginexr/"><img class="iconeRéseaux"
+                src="./IMG/logo-lk-footer.png" alt="Linkelind icone" /></a>
+            <a href="https://m.youtube.com/@i-magineXR"><img class="iconeRéseaux youtube"
+                src="./IMG/logo-ytb-footer.png" alt="youtube icone" /></a>
+          </div>
+        </div>
+      </div>
 
-            <div>
-                <h2>Suivez-nous</h2>
-                <div class="surlign"></div>
-                <div class="LinkFollow">
-                    <div class="iconeRéseaux">
-                        <a href="https://www.instagram.com/i_maginexr_/"> <img src="./IMG/logo-insta-footer.png"
-                                class="iconeRéseaux" alt="Instagram icone" /></a>
-                        <a href="https://m.facebook.com/61559538406667/"><img class="iconeRéseaux"
-                                src="./IMG/logo-fb-footer.png" alt="Facebook icone" /></a>
-                        <a href="https://www.linkedin.com/company/i-maginexr/"><img class="iconeRéseaux"
-                                src="./IMG/logo-lk-footer.png" alt="Linkelind icone" /></a>
-                        <a href="https://m.youtube.com/@i-magineXR"><img class="iconeRéseaux youtube"
-                                src="./IMG/logo-ytb-footer.png" alt="youtube icone" /></a>
-                    </div>
-                </div>
-            </div>
 
-    </footer>
+  </footer>
 
     <!---------------- Retour Haut de pages  ----------------->
     <div id="scrollUp">

@@ -24,7 +24,7 @@
   <!---------------- HEADER  ----------------->
   <header>
     <!--IMG FOND HEADER -->
-    <div class="imgfond">
+   <div class="imgfond">
       <header id="navbar" class="navbar">
         <!-- Bouton menu burger -->
         <button class="burger-menu" id="burgerMenu">
@@ -36,12 +36,15 @@
             <img src="./IMG/i-maginexr-entreprise-edtech-developpement-blanc.svg" alt="logo du site" />
           </a>
         </div>
+
         <nav>
           <ul>
             <li><a href="./2Quisommesnous.html">Qui sommes nous ?</a></li>
-            <!--Sous menu -->
+            <!-- Sous menu-->
             <li class="dropdown">
-              <a href="./3Services.html" class="dropbtn">Services ▼</a>
+              <a href="./3Services.html" class="dropbtn">Services&nbsp; <img src="./IMG/icone-fleche.png" height="12px"
+                  alt="">
+              </a>
               <ul class="dropdown-content">
                 <li><a href="./Services1-Formao.html">Formao</a></li>
                 <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
@@ -51,14 +54,14 @@
             </li>
 
             <li><a href="./4Actualites.html">Actualités</a></li>
-            <li><a href="./5Contact.html">Contact</a></li>
+            <li class="active_page"><a href="./5Contact.html" class="active_page">Contact</a></li>
           </ul>
         </nav>
 
     </div>
     <!-- Sous la barnav -->
     <section class="presentation">
-      <h1>
+      <h1 class="title-responsive">
         N'attendez plus pour prendre contact avec notre équipe !
       </h1>
       <div class="buttons buttons_hidden">
@@ -75,8 +78,8 @@
 
   <section class="contact-container">
     <div class="textOffice" id="textcontact">
-      <h3><strong>Une équipe d'experts</strong></h3>
-      <h2>Dédiée à vous accompagner dans votre projet</h2>
+        <h3 class="usage__title">Une équipe d'experts</h3>
+       <h2 class="title-style">Dédiée à vous accompagner dans votre projet</h2>
     </div>
     <div class="left">
       <div class="imgbloc"></div>
@@ -123,7 +126,7 @@
     <div class="right">
       <h2>Contactez-nous</h2>
       <form>
-        <label for="name">*Votre nom ou celui de votre établissement</label>
+        <label class="form-contact" for="name">*Votre nom ou celui de votre établissement</label>
         <input id="name" type="text" placeholder="Entrez votre nom" required>
 
         <label for="email">*Adresse e-mail</label>
@@ -150,9 +153,8 @@
   </section>
 
   <!---------------- Footer  ----------------->
-
-  <footer>
-    <div class="footer-container footer-container-contact">
+ <footer>
+    <div class="footer-container">
 
       <div class="links">
         <h2>Entreprise</h2>
@@ -160,7 +162,7 @@
         <ul>
           <li><a href="./2Quisommesnous.html">Qui sommes-nous ?</a></li>
           <li><a href="./3Services.html">Nos services</a></li>
-          <li><a href="./Contact.html">Nous contacter</a></li>
+          <li><a href="5Contact.html">Nous contacter</a></li>
           <li><a href="./MentionsLegales.html">Mentions Légales</a></li>
         </ul>
       </div>
@@ -170,7 +172,6 @@
         <ul>
           <li><a href="https://i-maginer.com/">Le groupe i-maginer</a></li>
           <li><a href="https://arinfo.fr/">Arinfo</a></li>
-          <li><a href="https://beta.formao.fr/connexion">Formao</a></li>
           <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
           <li><a
               href="file:///C:/Users/Alison/Desktop/Projet%20entreprise/Site%20I-magineXR/Quisommesnous.html#">i-magineLab</a>
@@ -178,7 +179,7 @@
         </ul>
       </div>
 
-      <div>
+      <div class="links">
         <h2>Suivez-nous</h2>
         <div class="surlign"></div>
         <div class="LinkFollow">
@@ -194,6 +195,8 @@
           </div>
         </div>
       </div>
+
+
   </footer>
   <!---------------- Retour haut du site  ----------------->
   <div id="scrollUp">

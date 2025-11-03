@@ -9,10 +9,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-.btn, .btn2 {
-  width: 230px;
-  padding: 10px;
-}
+
+  .btn,
+  .btn2 {
+    width: 230px;
+    margin-top: 15px;
+    padding: 10px;
+  }
 
   /* ---------- Page 1 --------- */
   /* 3 carte départ du site */
@@ -34,9 +37,11 @@
     top: 0;
     height: auto;
   }
-.society  {
-  align-items: flex-start;
-}
+
+  .society {
+    align-items: flex-start;
+  }
+
   /* Section | usage */
   .usage {
     padding: 20px;
@@ -102,9 +107,6 @@
     text-align: start;
   }
 
-  .cardPresentation h2 {
-    font-size: 1.5rem;
-  }
 
   .cardPresentation p {
     font-size: 1rem;
@@ -140,7 +142,7 @@
   }
 
   .map-responsive iframe {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
   }
 
   .map-responsive iframe {
@@ -172,11 +174,6 @@
   }
 
   /* ---------- PAGE 3 ---------- */
-  .service_bloc {
-    grid-template-columns: repeat(4) 1fr;
-    text-align: center;
-    position: relative;
-  }
 
 
   .step {
@@ -189,15 +186,11 @@
   }
 
   .cards {
-    align-items: center;
+
     align-content: center;
     justify-content: center;
     max-width: fit-content;
     margin: auto 15px;
-  }
-
-  .cards h4 {
-    font-size: 22px;
   }
 
   .script,
@@ -219,16 +212,16 @@
     align-content: center;
   }
 
-
-  #bloc-formao_cubes .promise__cube {
-    width: 230px;
-    height: auto;
-  }
-
-  #bloc_formao_inner h2,
+#bloc_formao_inner h2 {
+  width: 400px;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+  
   #bloc_formao_inner p {
-    max-width: 500px;
-    padding: 25px 0
+    width: auto;
+   
   }
 
   #formao-final-txt {
@@ -266,15 +259,17 @@
   #article_container .footer_articles_ia {
     padding: 0
   }
+
   /* Contact */
   .lien-condition {
     width: 350px;
     margin: 0px auto;
   }
+
   /* Footer */
- 
+
   .find .find-text {
-    max-width: 90%;
+
     align-items: center;
   }
 
@@ -288,22 +283,34 @@
 @media screen and (max-width: 767px) {
 
   /* HEADER */
+  .imgfond {
+    background: url(./IMG/fond-mobile.webp) center/cover no-repeat;
+    height: 60vh;
 
+  }
+.presentation .title-responsive {
+  top: 45%;
+  
+}
   .presentation h1 {
-    font-size: 1.2rem;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+    font-size: 22px;
+    top: 35%;
+    line-height: 1;
   }
 
-  .btn,
-  .btn2 {
-    padding: 10px 30px;
-  }
 
   .buttons {
     flex-direction: column;
     gap: 1px;
-    top: 60%;
+    top: 48%;
+  }
+
+  .btn,
+  .btn2 {
+    padding: 15px;
+    width: 150px;
   }
 
   /* Page 404*/
@@ -333,19 +340,24 @@
   /* SERVICES */
   .services {
     grid-template-columns: 1fr;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 40px;
 
   }
-  .script h3  {
+
+  .script h3 {
     margin: auto;
     margin-top: 25px;
   }
+
   .cards {
-    margin-bottom: 20px;
+
+    width: auto;
+    margin: 10px auto;
   }
+
   .services__card {
-    height: auto;
+    height: 380px;
   }
 
   .services__card h4 {
@@ -359,6 +371,16 @@
     padding: 20px;
   }
 
+  .society_title {
+    font-size: 1.5rem;
+  }
+  .society_first_paragraph {
+    font-family: "Nunito", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+  }
   .society__img {
     width: 100%;
     height: auto;
@@ -366,8 +388,8 @@
 
   /* PROMISE SECTION */
   .promise {
-
     flex-direction: column;
+    padding-top: 25px;
   }
 
   .promise__inner {
@@ -376,29 +398,35 @@
 
   }
 
-  .promise__title {
-    padding-top: 50px;
-    font-size: 1.8rem;
-    margin: 0;
+  .promise__underline {
+    margin-bottom: 10px
   }
 
-  .promise__underline {
-    width: 80%;
+  .promise__title {
+    padding-top: 10px;
+    font-size: 1.5rem;
     margin: 0;
   }
 
   .promise__cubes {
     grid-template-columns: 1fr;
     gap: 1rem;
-    margin: auto;
+    margin: 5px;
   }
 
   .promise__text {
     margin: 0;
+    font-size: 0.9rem;
   }
 
-  .promise__cube {
-    padding: 0.8rem;
+  .promise__cube h3 {
+    font-size: 1.3rem;
+    padding: 0 20px;
+  }
+
+  .promise__cube p {
+    font-size: 0.9rem;
+    padding: 5px 10px;
   }
 
   .promise__img {
@@ -415,10 +443,7 @@
     line-height: 2;
   }
 
-  .imgcode {
-    width: 90%;
-    height: auto;
-  }
+ 
 
   .Officeimg {
     width: 100%;
@@ -428,9 +453,9 @@
   /* USAGE SECTION */
   .usage {
     margin-top: 0;
-    margin: 15px;
     text-align: start;
   }
+
 
   .text {
     text-align: start;
@@ -444,21 +469,30 @@
 
   .teamCard {
     flex-direction: column;
+    padding: 1px;
+    max-width: 95%;
+    margin-top: 10px
   }
 
   /* NOS LOCAUX SECTION */
+
   #officeSociety {
     flex-direction: column;
     align-items: center;
+    margin-top: 80px
   }
 
 
   .textOffice {
     width: 100%;
     text-align: start;
+    padding: 0
   }
 
   .map-responsive {
+     margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
     padding-bottom: 100%;
   }
 
@@ -466,34 +500,53 @@
   .groupe {
     flex-direction: column;
     height: auto;
+    width: auto;
+    padding: 15px;
   }
-
-  .groupe h2,
-  .groupe h4 {
-    margin-left: 40px;
+  .leGroupeImaginer h3,
+  .leGroupeImaginer h2 {
+   margin-left: 20px;
   }
-
   .Groups {
     grid-template-columns: 1fr;
-    height: auto;
+
   }
 
   .group {
-    max-width: 350px;
+    max-width: 360px;
+    height: 350px;
+   
   }
+  
 
   /* SERVICES */
+  .process {
+    padding-top: 35px;
+  }
+
   .script h3 {
     padding: 0;
     padding-bottom: 20px;
-    font-size: 1.3rem;
     text-align: center;
+  }
+
+  .script p {
+    text-align: start;
+  }
+
+  .script h2 {
+    margin-bottom: 0;
   }
 
   .service_bloc {
     grid-template-columns: 1fr;
   }
 
+  .stepOne,
+  .stepTwo,
+  .stepThree {
+    padding: 0 15px;
+  }
 
   .step {
     flex-direction: column;
@@ -524,16 +577,11 @@
 
   .btnContact {
     margin-top: 0;
-    align-items: flex-end;
   }
 
   #bloc_formao_inner {
     left: 0;
     text-align: start;
-  }
-
-  #bloc-formao_cubes .promise__cube {
-    width: auto;
   }
 
   .wrap {
@@ -572,15 +620,16 @@
     margin-bottom: 55px;
   }
 
-  #bloc-formao_cubes .promise__cube {
-    height: 240px;
-  }
-  #bloc_formao_inner h2, #bloc_formao_inner { 
+  
+  #bloc_formao_inner h2,
+  #bloc_formao_inner {
     padding: 0;
   }
+
   #bloc-formao_cubes #formao-final-txt p {
     padding-top: 15px;
   }
+
   button#submit:hover {
     background: #ff3370;
   }
@@ -593,13 +642,15 @@
   .lien-condition {
     left: 0;
   }
-
+ 
   /* FOOTER */
+ 
   footer .footer-container {
     flex-direction: column;
     align-items: center;
 
   }
+
   .lien-condition {
     margin: 0;
   }
@@ -647,6 +698,12 @@
   .footer_ia_txt p {
     font-size: 0.95em;
   }
+  #title {
+    text-align: center;
+  }
+.articles__filters button {
+  display: none;
+}
 
   /*-----------PAGE CONTACT ----------*/
 
@@ -654,8 +711,11 @@
     flex-direction: column;
     padding: 20px;
     gap: 40px;
+    margin: 0;
   }
-
+.textOffice {
+  gap: 10px;
+}
   .left,
   .right {
     width: 100%;
@@ -664,10 +724,6 @@
   .socials ul {
     flex-direction: column;
     gap: 20px;
-  }
-
-  .right {
-    padding: 30px 20px;
   }
 
   .right h2 {
@@ -683,5 +739,5 @@
     padding: 0 20px;
     font-size: 0.9rem;
   }
- 
+
 }

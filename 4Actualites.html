@@ -25,7 +25,7 @@
   <!---------------- HEADER  ----------------->
   <header>
     <!--Image fond header -->
-    <div class="imgfond">
+   <div class="imgfond">
       <header id="navbar" class="navbar">
         <!-- Bouton menu burger -->
         <button class="burger-menu" id="burgerMenu">
@@ -43,7 +43,9 @@
             <li><a href="./2Quisommesnous.html">Qui sommes nous ?</a></li>
             <!-- Sous menu-->
             <li class="dropdown">
-              <a href="./3Services.html" class="dropbtn">Services ▼</a>
+              <a href="./3Services.html" class="dropbtn">Services&nbsp; <img src="./IMG/icone-fleche.png" height="12px"
+                  alt="">
+              </a>
               <ul class="dropdown-content">
                 <li><a href="./Services1-Formao.html">Formao</a></li>
                 <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
@@ -52,7 +54,7 @@
               </ul>
             </li>
 
-            <li><a href="./4Actualites.html">Actualités</a></li>
+            <li class="active_page"><a href="./4Actualites.html" class="active_page">Actualités</a></li>
             <li><a href="./5Contact.html">Contact</a></li>
           </ul>
         </nav>
@@ -60,7 +62,7 @@
     </div>
     <!-- Sous la barnav -->
     <section class="presentation">
-      <h1>
+      <h1 class="title-responsive">
         Toutes nos actualités sur l'éducation et les nouvelles technologies
       </h1>
       <div class="buttons buttons_hidden">
@@ -84,16 +86,17 @@
           plateformes LMS (Learning management system), ingénierie pédagogique… Que vous soyez formateur·trice,
           concepteur·trice pédagogique ou responsable d’établissement,<b> parcourez nos articles pour trouver des outils
             opérationnels ou les dernières tendances qui transforment ce domaine.</b> </p>
-        <h2><b>Tous nos articles</b></h2>
-        <h4>N'attendez plus et découvrez tous les thèmes abordés</h4>
+          <h3 class="usage__title" id="title">Tous nos articles</h3>
+        <h2 class="title-style">N'attendez plus et découvrez tous les thèmes abordés</h2>
       </div>
   </section>
 
 
-
+  <!---------------- 6eme Section | Nos derniers articles ----------------->
   <section class="articles">
-    <div class="articles__filters actualite"> <button class="articles__filter active">Tous les
-        articles</button> <button class="articles__filter">Technologie</button> </div>
+    <div class="articles__head">
+      <div class="articles__filters "> <button class="articles__filter active">Tous les
+          articles</button> <button class="articles__filter">Technologie</button> </div>
     </div>
     <div class="articles__grid">
       <article class="articles__card" data-category="tech"> <img class="articles__thumb"
@@ -101,7 +104,7 @@
           alt="Écran d’ordinateur" />
         <div class="articles__content">
           <div class="articles__meta"><span class="articles__date">01/08/2025</span> </div>
-          <h3 class="articles__card-title">Moodle : La plateforme LMS Open Source mondiale</h3>
+         <a href="" class="link-article"><h3 class="articles__card-title">Moodle : La plateforme LMS Open Source mondiale</h3></a>
           <p class="articles__excerpt"> La plateforme LMS Open Source mondiale : Moodle Avec l’essor de l’enseignement à
             distance et la transformation numérique de l’éducation...</p> <a class="articles__more"
             href="./Article_LMS_Moodle.html">Voir
@@ -112,7 +115,7 @@
           src="./IMG/tpo-10-des-meilleurs-ia-generatives-en-2025-par-i-maginexr-scaled.webp" alt="Main robot" />
         <div class="articles__content">
           <div class="articles__meta"> <span class="articles__date">24/07/2025</span> </div>
-          <h3 class="articles__card-title">Top 10 des meilleures IA génératives en 2025</h3>
+          <a href="" class="link-article"><h3 class="articles__card-title">Top 10 des meilleures IA génératives en 2025</h3></a>
           <p class="articles__excerpt"> Top 10 des meilleures IA génératives en 2025 Les IA génératives sont devenues en
             2025 un véritable moteur de productivité...
           </p> <a class="articles__more" href="./Article_top10_ia.html">Voir plus</a>
@@ -122,17 +125,17 @@
           src="./IMG/logiciel-edtech-formao-lms-degrade.webp" alt="Personne travaillant sur un ordinateur portable" />
         <div class="articles__content">
           <div class="articles__meta"> <span class="articles__date">22/07/2025</span> </div>
-          <h3 class="articles__card-title">Qu’est-ce qu’une plateforme LMS ?</h3>
+         <a href="" class="link-article"> <h3 class="articles__card-title">Qu’est-ce qu’une plateforme LMS ?</h3></a>
           <p class="articles__excerpt"> Qu’est ce qu’une plateforme LMS ? À l’heure où la formation en ligne accélère la
             montée en compétences, choisir la... </p> <a class="articles__more" href="./Article_LMS.html">Voir plus</a>
         </div>
       </article>
     </div>
   </section>
-
+<br><br><br>
 
   <!---------------- FOOTER ----------------->
-  <footer>
+   <footer>
     <div class="footer-container">
 
       <div class="links">
@@ -151,7 +154,6 @@
         <ul>
           <li><a href="https://i-maginer.com/">Le groupe i-maginer</a></li>
           <li><a href="https://arinfo.fr/">Arinfo</a></li>
-          <li><a href="https://beta.formao.fr/connexion">Formao</a></li>
           <li><a href="https://www.openspace3d.com/fr/">Openspace3D</a></li>
           <li><a
               href="file:///C:/Users/Alison/Desktop/Projet%20entreprise/Site%20I-magineXR/Quisommesnous.html#">i-magineLab</a>
@@ -159,8 +161,7 @@
         </ul>
       </div>
 
-
-      <div>
+      <div class="links">
         <h2>Suivez-nous</h2>
         <div class="surlign"></div>
         <div class="LinkFollow">
@@ -177,8 +178,8 @@
         </div>
       </div>
 
-  </footer>
 
+  </footer>
   <!---------------- RETOUR HAUT DU SITE  ----------------->
   <div id="scrollUp">
     <a href="#top"><img src="IMG/to_top.png" alt="icone-pour-remonte-en-haut"></a>

@@ -5,10 +5,19 @@
 
     burger.addEventListener("click", () => {
       nav.classList.toggle("active");
+    
     });
   });
+ document.addEventListener("DOMContentLoaded", () => {
+    const dropbtn = document.querySelector(".dropbtn");
+    const dropdown = document.querySelector(".dropdown-content");
 
+    dropbtn.addEventListener("click", (e) => {
+      e.preventDefault(); 
+      dropdown.classList.toggle("show");
+    });
 
+ })
 
 
 //Menu Scroll fixe
@@ -23,7 +32,7 @@ document.addEventListener('scroll', () => {
 })
 
 // bouton retour en haut 
-jQuery(function(){
+(function(){
     $(function () {
         $(window).scroll(function () { 
             if ($(this).scrollTop() > 200 ) {  

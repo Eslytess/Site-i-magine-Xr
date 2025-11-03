@@ -120,6 +120,11 @@
   margin: 10px
 }
 
+.container-response:hover {
+  animation-name: bounce;
+  animation-duration: 1s;
+}
+
 /* QUE CHOISIR ? */
 .choice h4 {
   padding-top: 50px;
@@ -409,13 +414,20 @@
   background-color: #EB215E;
   color: white;
   border: none;
-  border-radius: 20px;
-  font-size: 17px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  font-size: 16px;
   margin-top: 20px;
-  padding: 10px;
-  width: 200px;
+  padding: 9px 25px;
 }
 
+.test-formao button:hover {
+  background-color: #2e5c9e;
+}
+
+.test-formao a:hover {
+  color: white;
+}
 
 /* -------------- SECTION | IA ET XR --------------- */
 
@@ -509,6 +521,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 190px;
   transform: translate(-50%, -50%);
   z-index: 5;
   text-decoration: none;
@@ -541,6 +554,28 @@
   animation: none;
   background: url(./IMG/i-maginexr-developpement-d-application-vr-et-ar-scaled.webp) center/cover no-repeat;
   filter: brightness(60%);
+}
+
+#img-one:hover,
+#img-two:hover,
+#img-three:hover,
+#img-four:hover {
+  animation: zoom_in 1s ease;
+
+}
+
+@keyframes zoom_in {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 
@@ -615,6 +650,49 @@
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
 }
 
+.bloc_icone_livre:hover {
+  animation: zoom-out 2s ease forwards;
+}
+
+.livre_ouvert_icone:hover {
+  animation: zoom-in-zoom-out 2s ease forwards;
+}
+
+.bloc_icone_livre,
+.livre_ouvert_icone {
+  display: inline-block;
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
 .container_realisation_blocs {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -665,6 +743,10 @@
 
 .main_click img {
   margin-bottom: -5px;
+}
+
+.main_click:hover {
+  animation: shake 2s ease-in-out;
 }
 
 /* -------------- SECTION | PAGE PROJET --------------- */
@@ -739,6 +821,12 @@
   filter: brightness(70%);
 }
 
+#img_acc_one:hover,
+#img_acc_two:hover,
+#img_acc_three:hover {
+  animation: zoom_in 1s ease;
+}
+
 /* Expertise formao*/
 #expertise-digital {
   margin-top: 50px;
@@ -775,9 +863,11 @@
 #engagement_reussite_blocs {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
 }
 
 .engagement_reussite_bloc {
+
   background: rgba(255, 255, 255, 0.15);
   margin: 20px 20px;
   border-radius: 8%;
@@ -791,6 +881,7 @@
 }
 
 .engagement_reussite_bloc:hover {
+  animation: none;
   border: #fff 4px solid;
 }
 
@@ -847,7 +938,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 50px ;
+  padding: 50px;
   width: 400px;
 }
 
@@ -979,22 +1070,21 @@
   /*------------------- Bannière ------------*/
   .find {
     height: auto;
-    margin-top: 30px;
-    padding: 5px;
+    padding: 15px;
   }
-
   .find .find-text {
     width: 100%;
-    height: auto;
-    padding: 20px;
+    align-items: center;
+   padding: 15px;
+    height:280px;
     background-color: #ffffff9a;
   }
 
-  .find .find-text h3 {
-    font-size: 1.8rem;
-  }
-
   /*---------------Formao ----------*/
+  
+  .presentation .btn_width {
+    width: 186px;
+  }
   /*1ere section*/
   .whatis {
     flex-direction: column;
@@ -1003,8 +1093,8 @@
   .img-formao img {
     width: 100%;
     height: auto;
-    max-width: 350px;
-    margin: auto -15px;
+    max-width: 380px;
+    margin: auto
   }
 
   .bloc-formao {
@@ -1018,8 +1108,8 @@
     text-align: start;
   }
 
-  .whatIsFormao h4 {
-    font-size: 2rem;
+  .whatIsFormao h2 {
+  max-width:250px ;
   }
 
   .whatIsFormao p {
@@ -1030,6 +1120,7 @@
   .container-who-formao {
     padding: 20px 0;
   }
+
   .container-response-bloc {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -1037,17 +1128,16 @@
 
 
   .container-response {
-    width: 95%;
-    max-width: 90%;
+   width: 100%;
+   height: 100px;
     margin: 10px auto;
     padding: 20px 80px;
   }
 
   /* 3eme section */
-  .choice h4 {
-    text-align: center;
-    font-size: 30px;
-  }
+.container-choi h5, .container-choi p {
+  text-align: left;
+}
 
   .container-choice-bloc {
     flex-direction: column;
@@ -1058,7 +1148,7 @@
 
   .container-choice,
   .container-choi {
-    width: 90%;
+    width: 95%;
     margin: 10px auto;
     height: auto;
     padding: 20px;
@@ -1069,14 +1159,16 @@
   }
 
   .choice {
-    margin: auto;
+    text-align: center;
     max-width: 100%;
     height: auto;
   }
 
 
   /*4eme section */
-
+  .list-what-formao img {
+    width: 400px;
+  }
   .what-formao {
     padding: 30px 10px;
     flex-direction: column;
@@ -1088,16 +1180,17 @@
   }
 
   .text-what-formao h3 {
- 
+
     padding-left: 10px;
     text-align: start;
   }
-    .text-what-formao .list {
-      gap: 0;
-      align-content: flex-start;
-      align-items: flex-start;
-      padding: 10px;
-    }
+
+  .text-what-formao .list {
+    gap: 0;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+  }
 
   .p_list {
     padding-top: 0;
@@ -1115,44 +1208,41 @@
 
   .list-what-formao ul {
     max-width: 100%;
-  
+
   }
 
   /*5eme section */
   #container-fonction-formao {
-    max-width: 100%;
-    margin: 0;
+    max-width: 97%;
     padding: 0
   }
 
-
+  .response {
+    width: 90%;
+    height: 200px;
+  }
   #response-bloc {
     justify-content: center;
     grid-template-columns: 1fr;
     margin: auto;
   }
 
-  .container-response {
   
-    height: auto;
-  }
   /* 6eme section fonctionnement*/
   .etape img {
     width: 50px;
   }
-  .bloc-fonction {
-    max-width: 300px;
-  }
+
+ 
+
   .test-formao {
     text-align: center;
     padding: 0 20px;
+   
   }
 
   /* 7eme section */
-  .test-formao {
-    text-align: center;
-    margin: 0;
-  }
+  
 
   /*---------------Applications ia&xr ----------------*/
   /*section 1*/
@@ -1250,7 +1340,7 @@
     flex-direction: column;
     align-items: start;
     max-width: 100%;
-   
+
   }
 
   .bloc_container_acc {
@@ -1290,15 +1380,19 @@
     align-items: center;
   }
 
- .container-who-formao h2 {
-  text-align: center;
- }
- #container_max_width h2 {
-  margin : 0
- }
-#engagement_reussite h2 {
-text-align: start;
-}
+  .container-who-formao h2 {
+    text-align: center;
+    padding: 40px;
+  }
+
+  #container_max_width h2 {
+    margin: 0
+  }
+
+  #engagement_reussite h2 {
+    text-align: start;
+  }
+
   #img-one,
   #img-two,
   #img-three,
@@ -1338,10 +1432,11 @@ text-align: start;
     max-width: auto
   }
 
-  #engagement_reussite h2{
+  #engagement_reussite h2 {
     margin: 0;
     max-width: 400px;
   }
+
   #engagement_reussite p {
     margin: auto 15px;
   }
@@ -1390,7 +1485,7 @@ text-align: start;
     flex-direction: column-reverse;
     align-items: center;
     padding: 0;
-    
+
   }
 
   .methodologie_bloc_img .women-happy {
@@ -1409,7 +1504,7 @@ text-align: start;
     padding: 0;
     margin: 0;
   }
-  
+
   .dotted-line {
     max-width: 400px;
   }
@@ -1489,20 +1584,25 @@ text-align: start;
 
   .container_realisation_ h2,
   #container_expertise h2 {
-  right:0;
+    right: 0;
     text-align: start;
     margin-bottom: 0;
   }
+
   .container_expertise_bloc {
     max-width: 200px;
     padding: auto;
   }
 
-  #img-one, #img-two , #img-three, #img-four {
+  #img-one,
+  #img-two,
+  #img-three,
+  #img-four {
     max-width: 80%;
     margin: auto;
-    
+
   }
+
   #container-fonction-formao {
     margin: auto;
     width: 99%;
@@ -1514,10 +1614,12 @@ text-align: start;
   #img_acc_two {
     width: 180px;
   }
+
   .chevron-left {
     margin: 0;
     padding: 0;
   }
+
   #response-bloc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1527,13 +1629,13 @@ text-align: start;
     max-width: fit-content;
   }
 
- 
+
   .container-response {
     margin-top: 20px;
     width: 100%;
     max-width: 100px;
   }
-   
+
 
 
   /* Formao */
@@ -1550,11 +1652,13 @@ text-align: start;
 
   .container-response-bloc {
     flex-wrap: nowrap;
-   
+
   }
-  .section-fonctionnement  {
+
+  .section-fonctionnement {
     padding: 10px 10px;
   }
+
   .container-response {
     max-width: 100%;
   }
@@ -1588,7 +1692,7 @@ text-align: start;
   .illustration img {
     width: 100%;
   }
- 
+
 
   .what-formao h3 {
     padding: 0;
@@ -1597,11 +1701,13 @@ text-align: start;
   .what-formao .list p {
     font-size: 15px;
   }
- .text-what-formao .list {
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 20px;
- }
+
+  .text-what-formao .list {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
   .text-what-formao #list-two li {
     justify-content: flex-end;
   }
@@ -1631,10 +1737,10 @@ text-align: start;
     ;
   }
 
-.women-happy {
-  width: 400px;
-}
-  
+  .women-happy {
+    width: 400px;
+  }
+
   #expertise-digital img {
     width: 40%;
     height: 100%;
@@ -1653,9 +1759,11 @@ text-align: start;
   #engagement_reussite {
     max-width: auto;
   }
-    #engagement_reussite p {
+
+  #engagement_reussite p {
     margin-left: -100px;
-    }
+  }
+
   #engagement_reussite_blocs {
     max-width: auto
   }
@@ -1669,9 +1777,11 @@ text-align: start;
   .engagement_reussite_bloc h3 {
     width: auto;
   }
-.methodologie_bloc {
-  width: auto;
-}
+
+  .methodologie_bloc {
+    width: auto;
+  }
+
   .methodologie_bloc_img {
     width: 20%;
   }

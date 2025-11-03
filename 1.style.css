@@ -2,7 +2,7 @@
 html,
 body {
   overflow-x: hidden;
-  inline-size: 100cqw;
+
 }
 
 * {
@@ -13,7 +13,38 @@ body {
   font-family: "Nunito", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
 }
-
+/* -------------------- Style titre ------------------- */
+.active_page a {
+  color: #d83070;  
+  border-bottom: 2px solid #ea235f;
+  padding-bottom: 1px;
+}
+.active_page a:hover {
+   color: #d83070;  
+  border-bottom: 2px solid #ea235f;
+  padding-bottom: 1px;
+}
+.usage__title {
+  font-family: "Nunito", Sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    color:#b54474 ;
+}
+.title-style {
+  font-family: "Poppins", sans-serif ;
+  font-size: 2rem;
+  font-weight: 700;
+font-style: normal;
+  font-style: none;
+  text-decoration: none;
+  color:#282a31 ;
+}
+.title_weight {
+  font-weight: 900
+}
 /* --------------------  PAGE 404  -------------------- */
 
 .page_erreur {
@@ -132,9 +163,12 @@ body {
   padding: 13px 50px;
   margin: 0;
   border-radius: 50px;
+  font-family: "Nunito", Sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
   text-decoration: none;
-  font-style: bold;
-  font-size: large;
+
 }
 
 .btn {
@@ -149,6 +183,7 @@ body {
   border: 2px solid white;
   text-align: center;
   margin: auto;
+  background-color: #282a3196
 }
 
 .presentation .btn:hover {
@@ -197,19 +232,28 @@ body {
   position: relative;
   z-index: 3;
 }
-
+.services__link img.little_arrow {
+  filter: none; 
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.services__link:hover img.little_arrow {
+  filter: grayscale(100%) brightness(1.3); 
+}
 .services__link {
   color: #7e548a;
   font-weight: bold;
   text-decoration: none;
+  display: flex;
+  align-items: center;
   text-align: center;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.services__link:hover {
+.services__link:hover,
+ .services__card--featured a:hover{
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
-  color: #69727d;
+  color: #b4b4b4b4;
 }
 
 .services__card--featured {
@@ -235,18 +279,28 @@ body {
 }
 
 /* Animation */
+
 @keyframes bounce {
-  10% {
+  0%, 100% {
     transform: translateY(0);
   }
-
-  10% {
-    transform: translateY(-30px);
+  30% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  70% {
+    transform: translateY(-5px);
   }
 }
 
 
 /* DEUXIEME PARTIE | SECTION SOCIETY */
+
+.society_title {
+  padding-bottom: 30px;
+}
 .society {
   display: flex;
   align-items: center;
@@ -278,13 +332,6 @@ body {
   text-align: left;
 }
 
-.society__title {
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #282a31;
-  margin-bottom: 20px;
-}
 
 .society__paragraph {
   margin-bottom: 1.5rem;
@@ -425,6 +472,7 @@ body {
   grid-template-columns: repeat(2, minmax(100px, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 
 .promise__cube {
@@ -467,19 +515,7 @@ body {
   margin-top: -30px;
 }
 
-.usage__title {
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #b54474;
-}
 
-.usage__subtitle {
-  font-family: "Poppins", Sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
-}
 
 .usage__slider-wrapper {
   position: relative;
@@ -523,13 +559,7 @@ body {
   max-width: 1100px;
   width: 100%;
   margin: 15px;
-}
-
-.usage__scrollbar {
-  height: 24px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+  
 }
 
 .usage__track {
@@ -547,6 +577,7 @@ body {
   background: #000;
   border-radius: inherit;
   cursor: grab;
+  
 }
 
 .usage__thumb:active {
@@ -607,17 +638,6 @@ body {
   }
 }
 
-.society .Title {
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-style: normal;
-  color: #b54474;
-}
-
-
-
 .Liste {
   margin-left: 25PX;
   display: flex;
@@ -635,6 +655,12 @@ body {
 
 
 /* SECTION 6 | ARTICLES */
+.link-article {
+  color: #000;
+}
+.link-article:hover {
+  color: #0000008f;
+}
 .articles {
   max-width: 1150px;
   margin: auto;
@@ -646,12 +672,6 @@ body {
   flex-direction: column;
   gap: 12px;
   margin-bottom: 25px;
-}
-
-.articles__title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
 }
 
 .articles__filters {
@@ -807,27 +827,11 @@ body {
   box-sizing: border-box;
 }
 
-.cardPresentation h4 {
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-style: normal;
-  color: #b54474;
-}
-
 .cardPresentation p {
   padding: auto;
   line-height: 1.6;
 }
 
-.cardPresentation h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
-  line-height: 1.2;
-  padding: 15px 0;
-}
 
 
 /* SECTION 2 | NOS LOCAUX */
@@ -854,27 +858,6 @@ body {
 .textOffice {
   width: 50%;
   padding: 30px;
-}
-
-.textOffice h3 {
-  margin-bottom: 20px;
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-style: normal;
-  color: #b54474;
-}
-
-.textOffice h2 {
-  margin-bottom: 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  font-weight: 800;
-  text-transform: none;
-  font-style: none;
-  text-decoration: none;
-  line-height: 1;
 }
 
 .textOffice p {
@@ -909,26 +892,6 @@ body {
   margin-top: -250px;
   display: flex;
   justify-content: center;
-}
-
-.leGroupeImaginer h2 {
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-style: normal;
-  color: #b54474;
-}
-
-.leGroupeImaginer h4 {
-  margin-bottom: 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  font-weight: 800;
-  text-transform: none;
-  font-style: none;
-  text-decoration: none;
-  line-height: 1;
 }
 
 .group .visit {
@@ -1011,12 +974,10 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 0.95rem;
   line-height: 1.4;
-  margin-bottom: 15px;
+
 }
 
 .cards .linkk {
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
   font-weight: 600;
   color: #fff;
   text-decoration: none;
@@ -1087,7 +1048,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   color: #7e548a;
-  margin-top: 50px;
+
   font-style: normal;
 }
 
@@ -1154,33 +1115,48 @@ body {
 
 
 /* FORMAO */
-#bloc_formao {
+.bloc_formao {
   background: url(./IMG/gradient-xr-assombri-fond-formao.png) center/cover no-repeat !important;
   background-size: cover;
   background-attachment: fixed;
 
 }
-
+.formaoimg {
+  left: 20%;
+}
+.formaoimg img {
+ max-width: 447px;
+}
+#bloc_formao_inner {
+  left: 10%;
+  max-width: 600px;
+}
 #promise-paragraph {
   margin-bottom: 30px;
-  font-size: 1em;
-  font-weight: 300;
+  font-size:14px;
+  font-weight: 400;
+  width: 652px;
 }
-
+#formao-final-txt {
+ width: 652px;
+}
+.formao-underline {
+  width: 652px;
+}
 #bloc_formao_title {
   text-align: start;
   font-size: 2.2rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
-
-#bloc_formao_inner {
-  max-width: 620px;
+#bloc-formao_cubes{
+  width: 650px;
+ 
 }
 
 #bloc-formao_cubes .promise__cube {
-  height: 300px;
-  width: 300px;
+  height: 270px;
+  width: 310px;
 }
 
 
@@ -1241,14 +1217,16 @@ body {
 }
 
 .btnContact {
-  padding-top: 20px;
   margin-top: 10rem;
-  padding: 0.7rem 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #7e548a;
   color: #fff;
   text-decoration: none;
-  border-radius: 20px;
-  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px -7px rgba(0, 0, 0, 0);
+ padding: 8px 25px;
 }
 
 .btnContact:hover {
@@ -1273,12 +1251,7 @@ body {
   max-width: 1200px;
 }
 
-#current h2,
-h4 {
-  align-self: right;
-  max-width: 1500px;
-  font-weight: 300;
-}
+
 
 /* --------------------  PAGE NUMERO 5 | CONTACT  -------------------- */
 
@@ -1391,11 +1364,11 @@ h4 {
   border-radius: 15px;
   color: #fff;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-  padding: 40px;
+  padding: 20px;
 }
 
 .right h2 {
-  margin-bottom: 30px;
+
   text-align: center;
   font-size: 2.2rem;
   font-family: 'Poppins', sans-serif;
@@ -1406,13 +1379,13 @@ form {
   display: flex;
   flex-direction: column;
 }
-
+.form-contact {
+  padding-top: 0;
+}
 form label {
   font-weight: 700;
   font-size: 0.95rem;
-  margin-bottom: 8px;
-  margin-top: 18px;
-  padding-bottom: 10px;
+  padding: 30px 0px
 }
 
 form input,
@@ -1483,7 +1456,7 @@ footer .footer-container {
   display: flex;
   background: url(./IMG/banner-footer.jpg);
   width: 100%;
-  height: 110%;
+  height: 100%;
   justify-content: space-evenly;
   color: white;
 }
@@ -1509,6 +1482,17 @@ footer .footer-container {
   justify-content: space-between;
   height: 40px;
   margin: 0 10px 0 0px;
+  
+}
+
+.iconeRéseaux a img {
+  filter: brightness(0) invert(1); 
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.iconeRéseaux a:hover img {
+  filter: brightness(0) saturate(100%) invert(23%) sepia(82%) saturate(4736%) hue-rotate(310deg) brightness(95%) contrast(90%);
+  transform: scale(1.1);
 }
 
 .youtube {
