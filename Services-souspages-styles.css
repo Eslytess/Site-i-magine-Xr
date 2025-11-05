@@ -1619,6 +1619,9 @@ s
   .buttons {
 top: 65%;
   }
+  .btn_width-tablette {
+   width: 220px!important
+  }
   /* Début de page bannière 
   et fin de page */
 
@@ -1913,4 +1916,5 @@ top: 65%;
   .fonctionnement-contenu {
     gap: 15px;
   }
+  
 }

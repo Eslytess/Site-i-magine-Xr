@@ -4,6 +4,11 @@
   .active_page_img  {
    filter: none
 }
+.dropdown .dropbtn {
+    position: relative;
+    left: 674px;
+
+  }
 .imgfond {
   height: 80vh;
 }
@@ -18,7 +23,9 @@
   .buttons{
     gap: 40px;
   }
- 
+ .btn_width-tablette- {
+  width: 300px!important;
+ }
   .btn,
   .btn2 {
     width: 150px;
@@ -386,13 +393,10 @@
     height: 75vh;
 
   }
+  .dropdown .dropbtn {
+    position: relative;
+    left: 290px;
 
-  .presentation h1 {
-    text-align: center;
-    padding: 30px;
-    font-size: 22px;
-    top: 46%;
-    line-height: 1;
   }
 
 
