@@ -1,9 +1,13 @@
 /* -------------------- RESPONSIVE  -------------------- */
 /* TABLETTES */
 @media screen and (max-width: 1024px) {
+  .active_page_img  {
+   filter: none
+}
 .imgfond {
   height: 80vh;
 }
+
   /* ---------- Page 404 ----- */
   .error_page {
     height: auto;
@@ -11,10 +15,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
+  .buttons{
+    gap: 40px;
+  }
+ 
   .btn,
   .btn2 {
-    width: 230px;
+    width: 150px;
     margin-top: 15px;
     padding: 10px;
   }
@@ -31,7 +38,9 @@
     display: flex;
     flex-direction: row;
   }
-
+  .society__img {
+    height: 400px;
+  }
   /* Section | expertise */
   .imgcode {
     width: 100%;
@@ -65,7 +74,15 @@
     font-size: 2rem;
     margin-left: 115px;
   }
-
+.promise__inner {
+  max-width: 800px;
+}
+.promise__cube {
+  width: auto;
+}
+.tablette {
+  height: auto;
+}
   .promise__underline {
     width: 70%;
     margin-left: 115px;
@@ -184,8 +201,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 350px;
-    min-height: 380px;
+    max-width: 300px;
+        min-height: 450px;
     background-color: #fff;
     padding: 20px;
     margin: 10px;
@@ -475,7 +492,9 @@
     max-width: 100%;
 
   }
-
+  .promise__cube {
+width: auto;
+  }
   .promise__underline {
     margin-bottom: 10px
   }
@@ -494,6 +513,7 @@
 #bloc_formao_inner {
  width: auto;
  max-width: 370px;
+ left: 0;
 }
 #formao-final-txt {
   padding-top: 15px;

@@ -19,13 +19,18 @@ body {
   border-bottom: 2px solid #ea235f;
   padding-bottom: 1px;
 }
+.usage__link:hover {
+color: #7e548a;
+}
+
 .active_page_img  {
    filter: brightness(0) saturate(100%) invert(23%) sepia(82%) saturate(4736%) hue-rotate(310deg) brightness(95%) contrast(90%);
 }
+
 .usage__title {
   font-family: "Nunito", Sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
     font-style: normal;
     text-decoration: none;
@@ -37,6 +42,8 @@ body {
   font-weight: 700;
 font-style: normal;
   font-style: none;
+  line-height: 1;
+  padding: 15px 0;
   text-decoration: none;
   color:#282a31 ;
 }
@@ -356,7 +363,10 @@ font-style: normal;
 
 /* Bouton */
 .society__button {
-  display: inline-block;
+  display: flex;
+  max-width: 180px;
+  align-items: center;
+  justify-content: center;
   background-color: #ea235f;
   padding: 0.7rem 1.5rem;
   color: #fff;
@@ -445,7 +455,7 @@ font-style: normal;
 .promise__inner {
   position: relative;
   flex: 1 1;
-  max-width: 750px;
+  max-width: 720px;
   text-align: left;
   z-index: 2;
   left: 10%;
@@ -477,6 +487,7 @@ font-style: normal;
 .promise__cube {
   background: #FFFFFF30;
   padding: 1rem;
+   width: 343px;
   border-radius: 15px;
   border: 3px solid transparent;
   transition: border 0.3s ease;
@@ -826,6 +837,7 @@ font-style: normal;
   box-sizing: border-box;
 }
 
+
 .cardPresentation p {
   padding: auto;
   line-height: 1.6;
@@ -852,6 +864,12 @@ font-style: normal;
 
 #contactOffice {
   color: #ea235f;
+  text-decoration: underline;
+ font-weight: 700;
+ font-family: "Nunito", sans-serif;
+}
+#contactOffice:hover {
+  color: #7e548a;
 }
 
 .textOffice {
@@ -994,6 +1012,8 @@ font-style: normal;
 
 .cards .linkk:hover {
   color: #ea235f;
+   filter: brightness(0) saturate(100%) invert(23%) sepia(82%) saturate(4736%) hue-rotate(310deg) brightness(95%) contrast(90%);
+
 }
 
 .content h4 {
@@ -1120,6 +1140,10 @@ font-style: normal;
   background-attachment: fixed;
   padding: 40px;
 }
+#bloc_formao_inner {
+  max-width: 640px;
+  left: 12%;
+}
 .formaoimg {
   left: 20%;
 }
@@ -1137,20 +1161,17 @@ font-style: normal;
  width: 652px;
 }
 .formao-underline {
-  width: 620px;
+  width: 650px;
 }
 #bloc_formao_title {
   text-align: start;
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   margin-bottom: 15px;
 }
-#bloc-formao_cubes{
-  width: 650px;
- 
-}
 
-#bloc-formao_cubes .promise__cube {
+
+.tablette {
   height: 270px;
   width: 310px;
 }
