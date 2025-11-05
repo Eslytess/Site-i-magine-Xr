@@ -398,7 +398,9 @@
     left: 290px;
 
   }
-
+  .presentation h1 {
+        font-size: 1.5rem
+  }
 
   .buttons {
     flex-direction: column;
