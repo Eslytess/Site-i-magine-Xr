@@ -46,7 +46,9 @@
   justify-content: center;
   margin-top: 50px;
 }
-
+.img_tel_formao {
+  width: 300px;
+}
 .bloc-formao {
   display: flex;
   align-items: center;
@@ -1099,9 +1101,11 @@ width: 45px;
     flex-direction: column;
     align-items: end;
   }
-
+  .text-what-formao li {
+  margin: 15px 0;
+  }
   .list h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     max-width: 100%;
 
   }
@@ -1110,7 +1114,7 @@ width: 45px;
     display: none;
   }
 
-
+s
   /*------------------- Bannière ------------*/
   .find {
     height: auto;
@@ -1120,7 +1124,7 @@ width: 45px;
     width: 100%;
     align-items: center;
 
-    height:300px;
+    height:auto;
     background-color: #ffffff9a;
   }
 
@@ -1130,12 +1134,14 @@ width: 45px;
     width: 186px;
   }
   /*1ere section*/
+  .img_tel_formao {
+  width: 330px;
+}
   .whatis {
     flex-direction: column;
   }
 
   .img-formao img {
-    width: 100%;
     height: auto;
     max-width: 350px;
     margin: auto
@@ -1173,9 +1179,9 @@ width: 45px;
 
   .container-response {
    width: 100%;
-   height: 100px;
+   height: 110px;
     margin: 10px auto;
-    padding: 20px 80px;
+
   }
 
   /* 3eme section */
@@ -1211,10 +1217,10 @@ width: 45px;
 
   /*4eme section */
   .list-what-formao img {
-    width: 400px;
+    width:400px
   }
   .what-formao {
-    padding: 30px 10px;
+    padding: 30px 0px;
     flex-direction: column;
     align-items: center;
   }
@@ -1222,7 +1228,9 @@ width: 45px;
   .list-what-formao {
     flex-direction: column;
   }
-
+.text-what-formao {
+  padding: 10px;
+}
   .text-what-formao h3 {
 
     padding-left: 10px;
@@ -1257,13 +1265,16 @@ width: 45px;
 
   /*5eme section */
   #container-fonction-formao {
-    max-width: 97%;
-    padding: 0
+    max-width: 95%;
+  
+    background:  linear-gradient(90deg, #ea235f 0%,  #2e5c9f 100%);
   }
 
   .response {
     width: 90%;
     height: 200px;
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    width: 87%;
   }
   #response-bloc {
     justify-content: center;
@@ -1276,7 +1287,9 @@ width: 45px;
   .etape img {
     width: 50px;
   }
-
+  .etape {
+    margin: 0;
+  }
  
 
   .test-formao {
@@ -1287,7 +1300,9 @@ width: 45px;
 
   /* 7eme section */
   
-
+.formao-page {
+  padding-bottom: 60px;
+}
   /*---------------Applications ia&xr ----------------*/
   /*section 1*/
   /* IA ET XR */
@@ -1344,12 +1359,13 @@ width: 45px;
   }
 
   .container_realisation_ h2 {
+    margin-top: 55px;
     right: 0;
     padding: 10px;
   }
 
   .bloc_icone_livre {
-    width: 100%;
+    width: 90%;
   }
 
   .livre_ouvert_icone {
@@ -1408,7 +1424,7 @@ width: 45px;
   #img_acc_one,
   #img_acc_three,
   #img_acc_two {
-    width: 400px;
+    width: 350px;
     margin-bottom: 55px;
   }
 
@@ -1420,15 +1436,21 @@ width: 45px;
   #expertise-digital {
     flex-direction: column-reverse;
     align-items: center;
+    font-size: 1.5rem;
+
   }
 
   .container-who-formao h2 {
-
+  
     line-height: 1.2
   }
-
+  .response_who_formao {
+    width: 350px;
+  }
   #container_max_width h2 {
-    margin: 0
+    margin: 0;
+    text-align: center;
+    margin: 40px 0;
   }
 
   #engagement_reussite h2 {
@@ -1522,7 +1544,7 @@ width: 45px;
     flex-direction: column-reverse;
     align-items: center;
     padding: 0;
-
+    width: auto;
   }
   .dotted-line {
     width: 350px;
@@ -1591,10 +1613,18 @@ width: 45px;
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+  .presentation h1 {
+    top: 55%;
+  }
+  .buttons {
+top: 65%;
+  }
   /* Début de page bannière 
   et fin de page */
+
   .find .find-text {
-    max-width: 90%;
+    max-width: 98%;
+    height: 220px;
     align-items: center;
   }
 
@@ -1605,15 +1635,18 @@ width: 45px;
   /* Ia & XR */
 
   .container-ia-xr {
-    padding: 50px 20px;
+    padding: 100px 20px 0;
     flex-direction: row;
     align-items: center;
   }
 
   .container-ia-xr img {
-    width: 30%;
+    width: 40%;
   }
-
+    .text-container-ia-xr h2 {
+      width: 400px;
+      line-height: 1;
+    }
   .text-container-ia-xr h3 img {
     width: 25px;
   }
@@ -1653,7 +1686,7 @@ width: 45px;
   #img_acc_one,
   #img_acc_three,
   #img_acc_two {
-    width: 180px;
+    width: 220px;
   }
 
   .chevron-left {
@@ -1670,7 +1703,11 @@ width: 45px;
   #container-fonction-formao .response {
   width: auto;
   }
+  
 
+  .container_realisation_{
+    align-content: flex-start;
+  }
 
   .container-response {
     margin-top: 20px;
@@ -1678,7 +1715,10 @@ width: 45px;
     max-width: 100px;
   }
 
-
+  #container_max_width {
+    padding: 0;
+    margin-top: 90px;
+  }
 
   /* Formao */
   .whatis {
@@ -1694,7 +1734,8 @@ width: 45px;
 
   .container-response-bloc {
     flex-wrap: nowrap;
-
+    margin-bottom: -80px;
+    /*width: 750px;*/
   }
 
   .section-fonctionnement {
@@ -1705,9 +1746,11 @@ width: 45px;
   .container-response {
     max-width: 100%;
   }
-
+  .container-who-formao {
+    padding: 50px;
+  }
   .choice {
-    margin: 30px;
+    margin: 10px;
     max-width: 100%;
     height: auto;
   }
@@ -1735,15 +1778,26 @@ width: 45px;
   .illustration img {
     width: 100%;
   }
-
+  .what-formao .formao_what_img img {
+    width: 30%;
+  }
   .text-what-formao .list {
     gap: 0;
     padding: 10px 40px;
   }
-
+.list-what-formao img {
+  width: 50%;
+}
+.btnContact {
+  width: 200px;
+  padding: 10px;
+}
 .title_what_formao {
   padding: 10px 40px;
 }
+  .what-formao {
+    padding: 10px;
+  }
   .what-formao h3 {
     padding: 0;
   }
@@ -1768,39 +1822,40 @@ width: 45px;
 
 
   /* Projet */
-.btn_width_projet button {
-    width: 300px;
-  }
+
   #container_accompagnement {
     max-width: 100%;
   }
 
   #container_accompagnement h2 {
-    right: 50px;
-    font-size: 20px;
+   right: 50px;
   }
 
   #container_accompagnement_bloc {
-    max-width: 90%;
-    ;
+ width: 800px;
   }
-
+  .buttons .btn .btn_width_projet {
+    width: 500px;
+  }
   .women-happy {
     width: 400px;
   }
 
   
   #expertise-digital_bloc {
-    margin: auto;
+
     max-width: fit-content;
     max-height: auto;
+    padding: 50px 0px;
   }
-
+   /*/ .list-what-formao  img {
+    width: 50%;
+  }*/
   #expertise-digital_txt img {
-    width: 15%;
+    width: 10%;
   }
-  .image-expertise_formao {
-    max-width: 100%;
+  #expertise-digital_txt li {
+    padding: 0;
   }
   #engagement_reussite {
     max-width: auto;
@@ -1844,7 +1899,18 @@ width: 45px;
     height: 40px;
     margin: 0px 0px 0px 40px;
   }
-  #container_projects_title h1 {
-    text-align: start;
+  
+  .img_etape {
+    height: 40px;
+  }
+  .illustration img {
+    width: 250px;
+    
+  }
+  #container_projects_title {
+    padding: 0;
+  }
+  .fonctionnement-contenu {
+    gap: 15px;
   }
 }

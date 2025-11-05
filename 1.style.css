@@ -399,6 +399,7 @@ font-style: normal;
 
 /* SECTION | NOS ENGAGEMENTS */
 
+
 .promise {
   position: relative;
   display: flex;
@@ -1119,7 +1120,7 @@ font-style: normal;
   background: url(./IMG/gradient-xr-assombri-fond-formao.png) center/cover no-repeat !important;
   background-size: cover;
   background-attachment: fixed;
-
+  padding: 40px;
 }
 .formaoimg {
   left: 20%;
@@ -1127,10 +1128,7 @@ font-style: normal;
 .formaoimg img {
  max-width: 447px;
 }
-#bloc_formao_inner {
-  left: 10%;
-  max-width: 600px;
-}
+
 #promise-paragraph {
   margin-bottom: 30px;
   font-size:14px;
@@ -1141,7 +1139,7 @@ font-style: normal;
  width: 652px;
 }
 .formao-underline {
-  width: 652px;
+  width: 620px;
 }
 #bloc_formao_title {
   text-align: start;
@@ -1486,6 +1484,8 @@ footer .footer-container {
   margin-top: 50px;
   display: flex;
   background: url(./IMG/banner-footer.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
   width: 100%;
   height: 100%;
   justify-content: space-evenly;
@@ -1518,12 +1518,12 @@ footer .footer-container {
 
 .iconeRéseaux a img {
   filter: brightness(0) invert(1); 
-  transition: filter 0.3s ease, transform 0.3s ease;
+  transition: filter 0.3s ease, 
 }
 
 .iconeRéseaux a:hover img {
   filter: brightness(0) saturate(100%) invert(23%) sepia(82%) saturate(4736%) hue-rotate(310deg) brightness(95%) contrast(90%);
-  transform: scale(1.1);
+ 
 }
 
 .youtube {
