@@ -399,7 +399,9 @@
 
   }
   .presentation h1 {
-        font-size: 1.5rem
+        font-size: 1.5rem; 
+        line-height: 1;
+        top: 45%;
   }
 
   .buttons {
