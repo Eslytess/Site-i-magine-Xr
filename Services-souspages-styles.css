@@ -46,9 +46,11 @@
   justify-content: center;
   margin-top: 50px;
 }
+
 .img_tel_formao {
   width: 300px;
 }
+
 .bloc-formao {
   display: flex;
   align-items: center;
@@ -156,7 +158,7 @@
   max-width: 1200px;
   margin: 50px auto 0 auto;
 }
-  
+
 .title_choice {
   margin-top: 50px;
 
@@ -168,7 +170,7 @@
   align-items: center;
   justify-content: center;
   align-content: center;
-  gap: 0; 
+  gap: 0;
 }
 
 
@@ -201,6 +203,7 @@
   from {
     margin-left: 100%;
   }
+
   to {
     margin-left: 0%;
   }
@@ -210,6 +213,7 @@
   from {
     margin-right: 100%;
   }
+
   to {
     margin-right: 0%;
   }
@@ -221,7 +225,7 @@
   color: white;
   font-weight: 700;
   font-style: normal;
-  
+
 }
 
 .container-choice-bloc p {
@@ -243,11 +247,12 @@
 .container-choi h5 {
   text-align: left;
 }
+
 .ligne_choix {
-height: 3px;
-margin: 10px 0;
-background-color: white;
-width: 45px;
+  height: 3px;
+  margin: 10px 0;
+  background-color: white;
+  width: 45px;
 
 }
 
@@ -1101,9 +1106,11 @@ width: 45px;
     flex-direction: column;
     align-items: end;
   }
+
   .text-what-formao li {
-  margin: 15px 0;
+    margin: 15px 0;
   }
+
   .list h2 {
     font-size: 2rem;
     max-width: 100%;
@@ -1114,29 +1121,33 @@ width: 45px;
     display: none;
   }
 
-s
+  s
+
   /*------------------- Bannière ------------*/
   .find {
     height: auto;
     padding: 8px;
   }
+
   .find .find-text {
     width: 100%;
     align-items: center;
 
-    height:auto;
+    height: auto;
     background-color: #ffffff9a;
   }
 
   /*---------------Formao ----------*/
-  
+
   .presentation .btn_width {
     width: 186px;
   }
+
   /*1ere section*/
   .img_tel_formao {
-  width: 330px;
-}
+    width: 330px;
+  }
+
   .whatis {
     flex-direction: column;
   }
@@ -1159,7 +1170,7 @@ s
   }
 
   .whatIsFormao h2 {
-  max-width:250px ;
+    max-width: 250px;
   }
 
   .whatIsFormao p {
@@ -1178,16 +1189,17 @@ s
 
 
   .container-response {
-   width: 100%;
-   height: 110px;
+    width: 100%;
+    height: 110px;
     margin: 10px auto;
 
   }
 
   /* 3eme section */
-.container-choi h5, .container-choi p {
-  text-align: left;
-}
+  .container-choi h5,
+  .container-choi p {
+    text-align: left;
+  }
 
   .container-choice-bloc {
     flex-direction: column;
@@ -1217,8 +1229,9 @@ s
 
   /*4eme section */
   .list-what-formao img {
-    width:400px
+    width: 400px
   }
+
   .what-formao {
     padding: 30px 0px;
     flex-direction: column;
@@ -1228,9 +1241,11 @@ s
   .list-what-formao {
     flex-direction: column;
   }
-.text-what-formao {
-  padding: 10px;
-}
+
+  .text-what-formao {
+    padding: 10px;
+  }
+
   .text-what-formao h3 {
 
     padding-left: 10px;
@@ -1266,43 +1281,46 @@ s
   /*5eme section */
   #container-fonction-formao {
     max-width: 95%;
-  
-    background:  linear-gradient(90deg, #ea235f 0%,  #2e5c9f 100%);
+
+    background: linear-gradient(90deg, #ea235f 0%, #2e5c9f 100%);
   }
 
   .response {
     width: 90%;
     height: 200px;
-    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
     width: 87%;
   }
+
   #response-bloc {
     justify-content: center;
     grid-template-columns: 1fr;
     margin: auto;
   }
 
-  
+
   /* 6eme section fonctionnement*/
   .etape img {
     width: 50px;
   }
+
   .etape {
     margin: 0;
   }
- 
+
 
   .test-formao {
     text-align: center;
     padding: 0 20px;
-   
+
   }
 
   /* 7eme section */
-  
-.formao-page {
-  padding-bottom: 60px;
-}
+
+  .formao-page {
+    padding-bottom: 60px;
+  }
+
   /*---------------Applications ia&xr ----------------*/
   /*section 1*/
   /* IA ET XR */
@@ -1396,6 +1414,7 @@ s
   .presentation .btn_width_projet {
     width: 280px;
   }
+
   /* section 1*/
   #container_accompagnement {
     flex-direction: column;
@@ -1415,7 +1434,7 @@ s
     text-align: start;
   }
 
-  
+
 
   .chevron_left {
     margin: 20px;
@@ -1441,12 +1460,14 @@ s
   }
 
   .container-who-formao h2 {
-  
+
     line-height: 1.2
   }
+
   .response_who_formao {
     width: 350px;
   }
+
   #container_max_width h2 {
     margin: 0;
     text-align: center;
@@ -1546,9 +1567,11 @@ s
     padding: 0;
     width: auto;
   }
+
   .dotted-line {
     width: 350px;
   }
+
   .methodologie_bloc_img .women-happy {
     width: 80%;
     margin-bottom: 150px;
@@ -1577,11 +1600,11 @@ s
   }
 
   #container_projects_title h1 {
-           font-family: "Poppins";
-        font-size: 2rem;
-        font-weight: 700;
-        text-align: start;
-        padding: 10px;
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: start;
+    padding: 10px;
   }
 
   #container_projects_title {
@@ -1616,12 +1639,15 @@ s
   .presentation h1 {
     top: 55%;
   }
+
   .buttons {
-top: 65%;
+    top: 65%;
   }
+
   .btn_width-tablette {
-   width: 220px!important
+    width: 220px !important
   }
+
   /* Début de page bannière 
   et fin de page */
 
@@ -1646,10 +1672,12 @@ top: 65%;
   .container-ia-xr img {
     width: 40%;
   }
-    .text-container-ia-xr h2 {
-      width: 400px;
-      line-height: 1;
-    }
+
+  .text-container-ia-xr h2 {
+    width: 400px;
+    line-height: 1;
+  }
+
   .text-container-ia-xr h3 img {
     width: 25px;
   }
@@ -1704,11 +1732,11 @@ top: 65%;
   }
 
   #container-fonction-formao .response {
-  width: auto;
+    width: auto;
   }
-  
 
-  .container_realisation_{
+
+  .container_realisation_ {
     align-content: flex-start;
   }
 
@@ -1749,9 +1777,11 @@ top: 65%;
   .container-response {
     max-width: 100%;
   }
+
   .container-who-formao {
     padding: 50px;
   }
+
   .choice {
     margin: 10px;
     max-width: 100%;
@@ -1781,26 +1811,33 @@ top: 65%;
   .illustration img {
     width: 100%;
   }
+
   .what-formao .formao_what_img img {
     width: 30%;
   }
+
   .text-what-formao .list {
     gap: 0;
     padding: 10px 40px;
   }
-.list-what-formao img {
-  width: 50%;
-}
-.btnContact {
-  width: 200px;
-  padding: 10px;
-}
-.title_what_formao {
-  padding: 10px 40px;
-}
+
+  .list-what-formao img {
+    width: 50%;
+  }
+
+  .btnContact {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .title_what_formao {
+    padding: 10px 40px;
+  }
+
   .what-formao {
     padding: 10px;
   }
+
   .what-formao h3 {
     padding: 0;
   }
@@ -1831,35 +1868,40 @@ top: 65%;
   }
 
   #container_accompagnement h2 {
-   right: 50px;
+    right: 50px;
   }
 
   #container_accompagnement_bloc {
- width: 800px;
+    width: 800px;
   }
+
   .buttons .btn .btn_width_projet {
     width: 500px;
   }
+
   .women-happy {
     width: 400px;
   }
 
-  
+
   #expertise-digital_bloc {
 
     max-width: fit-content;
     max-height: auto;
     padding: 50px 0px;
   }
-   /*/ .list-what-formao  img {
+
+  /*/ .list-what-formao  img {
     width: 50%;
   }*/
   #expertise-digital_txt img {
     width: 10%;
   }
+
   #expertise-digital_txt li {
     padding: 0;
   }
+
   #engagement_reussite {
     max-width: auto;
   }
@@ -1877,20 +1919,24 @@ top: 65%;
     height: 200px;
     margin: 15px;
   }
-  #engagement_reussite img{
+
+  #engagement_reussite img {
     padding: 10px;
     margin-left: 5px;
   }
- 
+
   .engagement_reussite_bloc h3 {
     width: auto;
   }
+
   .dotted-line {
     width: 400px;
   }
+
   .methodologie_bloc {
     width: auto;
   }
+
   .methodologie_bloc_picto {
     width: 400px;
   }
@@ -1898,23 +1944,27 @@ top: 65%;
   .methodologie_bloc_img {
     width: 20%;
   }
-.check {
+
+  .check {
     height: 40px;
     margin: 0px 0px 0px 40px;
   }
-  
+
   .img_etape {
     height: 40px;
   }
+
   .illustration img {
     width: 250px;
-    
+
   }
+
   #container_projects_title {
     padding: 0;
   }
+
   .fonctionnement-contenu {
     gap: 15px;
   }
-  
+
 }

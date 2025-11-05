@@ -10,35 +10,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
   dropbtn.addEventListener("click", (e) => {
     e.preventDefault();
-    dropdown.classList.toggle("open"); 
+    dropdown.classList.toggle("open");
   });
 });
- 
+
 
 //Menu Scroll fixe
 document.addEventListener('scroll', () => {
-    const navbar = document.getElementById('navbar')
-    if (window.scrollY > 0) {
-        navbar.classList.add("scrolled")
-    }
-    else {
-        navbar.classList.remove("scrolled")
-    }
+  const navbar = document.getElementById('navbar')
+  if (window.scrollY > 0) {
+    navbar.classList.add("scrolled")
+  }
+  else {
+    navbar.classList.remove("scrolled")
+  }
 })
 
-// bouton retour en haut 
-(function(){
+  // bouton retour en haut 
+  (function () {
     $(function () {
-        $(window).scroll(function () { 
-            if ($(this).scrollTop() > 200 ) {  
-                $('#scrollUp').css('right','10px'); 
-            } else { 
-                $('#scrollUp').removeAttr( 'style' ); 
-            }
-        });
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $('#scrollUp').css('right', '10px');
+        } else {
+          $('#scrollUp').removeAttr('style');
+        }
+      });
     });
-});
- 
+  });
+
 
 
 // Carrousel d'image 
