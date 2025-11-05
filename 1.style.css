@@ -19,10 +19,8 @@ body {
   border-bottom: 2px solid #ea235f;
   padding-bottom: 1px;
 }
-.active_page a:hover {
-   color: #d83070;  
-  border-bottom: 2px solid #ea235f;
-  padding-bottom: 1px;
+.active_page_img  {
+   filter: brightness(0) saturate(100%) invert(23%) sepia(82%) saturate(4736%) hue-rotate(310deg) brightness(95%) contrast(90%);
 }
 .usage__title {
   font-family: "Nunito", Sans-serif;

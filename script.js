@@ -1,24 +1,19 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.getElementById("burgerMenu");
+  const nav = document.querySelector("nav ul");
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const burger = document.getElementById("burgerMenu");
-    const nav = document.querySelector("nav ul");
-
-    burger.addEventListener("click", () => {
-      nav.classList.toggle("active");
-    
-    });
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("active");
   });
- document.addEventListener("DOMContentLoaded", () => {
-    const dropbtn = document.querySelector(".dropbtn");
-    const dropdown = document.querySelector(".dropdown-content");
+  const dropdown = document.querySelector(".dropdown");
+  const dropbtn = dropdown.querySelector(".dropbtn");
 
-    dropbtn.addEventListener("click", (e) => {
-      e.preventDefault(); 
-      dropdown.classList.toggle("show");
-    });
-
- })
-
+  dropbtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    dropdown.classList.toggle("open"); 
+  });
+});
+ 
 
 //Menu Scroll fixe
 document.addEventListener('scroll', () => {

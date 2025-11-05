@@ -281,11 +281,12 @@
   font-size: 2rem;
   font-weight: 600;
 }
+/*
 .promise__cube.tablette {
   height: 330px;
   width: 230px;
   padding: 5px;
-}
+}*/
    #bloc_formao_inner {
     max-width: 600px;
    }
@@ -491,7 +492,6 @@
     margin: 5px;
   }
 #bloc_formao_inner {
-
  width: auto;
  max-width: 370px;
 }
@@ -501,11 +501,11 @@
 .formao-underline {
   width: 400px;
 }
+   
+    
 .promise__cube.tablette {
-  width: auto;
-  margin: 0 25px;
-  padding: 15px;
-  height: 250px;
+ 
+  height: 230px;
 }
   .promise__text {
     margin: 0;
